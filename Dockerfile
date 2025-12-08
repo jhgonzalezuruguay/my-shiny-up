@@ -3,8 +3,9 @@ FROM rocker/shiny:latest
 # Copia todo el contenido del repo al contenedor
 COPY . /srv/shiny-server/
 
-# Expone el puerto 3838
+# Copia la configuración personalizada
+COPY shiny-server.conf /etc/shiny-server/shiny-server.conf
+
 EXPOSE 3838
 
-# Comando de inicio
 CMD ["/usr/bin/shiny-server"]
