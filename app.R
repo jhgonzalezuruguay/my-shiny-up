@@ -203,28 +203,27 @@ h1, h2, h3, h4 {
                  #   height = "500px",
                  #   style = "border:none; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"
                  # ),
-                 # br(), br(),
-                 # 
-                 # tags$hr(),
-                 # h4("Links apps externas:"),
-                 # tags$ul(
-                 #   tags$li(
-                 #     tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                 #            target = "_blank", 
-                 #            "1. Investigaciones - Herramienta interactiva")),
-                 #   tags$li(
-                 #     tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                 #            target = "_blank", 
-                 #            "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-                 #   tags$li(
-                 #     tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                 #            target = "_blank", 
-                 #            "3. Metodología - Herramienta interactiva")),
-                 #   tags$li(
-                 #     tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                 #            target = "_blank", 
-                 #            "4. Hipotesis - Herramienta interactiva")))
-               ))
+                 br(), br(),
+                 
+                 tags$hr(),
+                 h4("Links apps externas:"),
+                 tags$ul(
+                   tags$li(
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
+                            target = "_blank", 
+                            "1. Investigaciones - Herramienta interactiva")),
+                   tags$li(
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
+                            target = "_blank", 
+                            "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
+                   tags$li(
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
+                            target = "_blank", 
+                            "3. Metodología - Herramienta interactiva")),
+                   tags$li(
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
+                            target = "_blank", 
+                            "4. Hipotesis - Herramienta interactiva")))))
              
              
              
@@ -269,9 +268,9 @@ ese problema empíricamente (Batthyany et ali)."),
                br(),
                tags$li("La articulación asegura consistencia entre lo que se investiga y cómo se investiga."),
                br(),
-               tags$li("En Derecho: evita incoherencias entre marco normativo y técnica de análisis.")
-             ),
-             br(),
+               tags$li("En las Ciencias Sociales: evita incoherencias entre el marco teórico y la técnica de análisis.")
+               ),
+               br(),
              
              h4("Tipos de conocimiento"),
              br(),
@@ -395,7 +394,7 @@ datos."),
              tags$ul(
                tags$li("Tema: campo general de estudio. Puede surgir de preocupaciones sociales,
  demandas institucionales o motivaciones personales. Requiere delimitación conceptual."),
-               tags$li("Ejemplo Tema en Derecho: “La violencia doméstica en Uruguay”."),
+               tags$li("Ejemplo Tema en Ciencias Sociales: “La violencia doméstica en Uruguay”."),
                br(),
                tags$li("Problema: pregunta concreta que guía la investigación. El problema es la problematización de un aspecto específico del tema. Se traduce en preguntas de
  investigación u objetivos concretos. Requiere delimitación conceptual, temporal y empírica, y
@@ -407,18 +406,18 @@ datos."),
                br(),
                tags$li("Un buen problema debe ser original, factible y verificable."),
                br(),
-               tags$li("En Derecho: puede surgir de vacíos legales o prácticas judiciales."),
+               tags$li("En Ciencias Sociales: puede surgir de desigualdades estructurales o dinámicas comunitarias."),
                br(),
-               tags$li("Ejemplos aplicados al Derecho:"),
+               tags$li("Ejemplos aplicados a las Ciencias Sociales:"),
                br(),
-               tags$li("1. Tema: Corrupción política."),
-               tags$li("Problema: Impacto de la Ley de Transparencia en casos de cohecho (2015-2023)."),
+               tags$li("1. Tema: Desigualdad educativa."),
+               tags$li("Problema: Impacto del nivel socioeconómico en el acceso a la educación superior (2015-2023)."),
                br(),
-               tags$li("2. Tema: Derechos humanos en cárceles."),
-               tags$li("Problema: Efectos del Mecanismo de Prevención de la Tortura (2012-2022)."),
+               tags$li("2. Tema: Género y trabajo."),
+               tags$li("Problema: Efectos de la brecha salarial en mujeres jóvenes (2012-2022)."),
                br(),
-               tags$li("3. Tema: Juicios laborales."),
-               tags$li("Problema: Demoras procesales en el fuero laboral (2019-2023)."),
+               tags$li("3. Tema: Participación comunitaria."),
+               tags$li("Problema: Factores que limitan la participación de jóvenes en organizaciones barriales (2019-2023)."),
                br(),
                tags$li("Recordemos:"),
                tags$li("- El tema es el punto de partida, amplio y general."),
@@ -455,7 +454,7 @@ datos."),
              
              br(),
              h4("Actividad grupal"),
-             p("Ejercicio: Elegir un tema amplio en Derecho, formular 3 problemas de investigación."),
+             p("Ejercicio: Elegir un tema amplio en Ciencias Sociales, formular 3 problemas de investigación."),
              p("Responder:  ¿Qué quiero saber?"),
              p("Responder:  ¿A quiénes afecta?"),
              p("Responder:  ¿Dónde y cuándo?"),
@@ -463,60 +462,57 @@ datos."),
              
              br(),
              h4("Actividad domiciliaria grupal o individual entregable"),
-             p("Tema 1: Derechos humanos en cárceles"),
-             p("Ejercicio:  formular 2 problemas de investigación abordables desde el derecho."),
+             p("Tema 1: Desigualdad educativa"),
+             p("Ejercicio:  formular 2 problemas de investigación abordables desde las ciencias sociales."),
              p("Pistas:"),
-             p("- Condiciones de infraestructura."),
-             p("- Acceso a la salud y educación."),
-             p("- Violencia y trato por parte de funcionarios."),
+             p("- Diferencias en acceso a educación superior."),
+             p("- Brechas de género en logros educativos."),
+             p("- Impacto del nivel socioeconómico en la permanencia estudiantil."),
              p("Responder:  ¿Qué quiero saber?"),
              p("Responder:  ¿A quiénes afecta?"),
              p("Responder:  ¿Dónde y cuándo?"),
              p("Responder:  ¿Con qué información puedo responderlo?"),
-             p("Ejemplo: ¿Cuál ha sido el impacto de los programas educativos en la reincidencia delictiva en
- cárceles uruguayas entre 2015 y 2022?"),
+             p("Ejemplo: ¿Cuál ha sido el impacto del nivel socioeconómico en la permanencia de estudiantes en educación secundaria en Uruguay entre 2015 y 2022?"),
              
              br(),
-             p("Tema 2: Corrupción y transparencia"),
-             p("Ejercicio:  formular 2 problemas de investigación abordables desde el derecho."),
+             p("Tema 2: Género y trabajo"),
+             p("Ejercicio:  formular 2 problemas de investigación abordables desde las ciencias sociales."),
              p("Pistas:"),
-             p("- Implementación de la Ley de Acceso a la Información Pública."),
-             p("- Licitaciones públicas y control ciudadano."),
-             p("- Medios de comunicación y casos de corrupción."),
+             p("- Brecha salarial entre hombres y mujeres."),
+             p("- Acceso de mujeres jóvenes a empleos de calidad."),
+             p("- Conciliación entre trabajo y vida familiar."),
              p("Responder:  ¿Qué quiero saber?"),
              p("Responder:  ¿A quiénes afecta?"),
              p("Responder:  ¿Dónde y cuándo?"),
              p("Responder:  ¿Con qué información puedo responderlo?"),
-             p("Ejemplo: ¿En qué medida las auditorías externas redujeron los casos de irregularidades en
- licitaciones públicas en Uruguay entre 2017 y 2022?"),
+             p("Ejemplo: ¿En qué medida la brecha salarial afecta las oportunidades de inserción laboral de mujeres jóvenes en Montevideo entre 2017 y 2022?"),
              
              br(),
-             p("Tema 3: Protección ambiental y legislación"),
-             p("Ejercicio:  formular 2 problemas de investigación abordables desde el derecho."),
+             p("Tema 3: Participación comunitaria"),
+             p("Ejercicio:  formular 2 problemas de investigación abordables desde las ciencias sociales."),
              p("Pistas:"),
-             p("- Cumplimiento de normas ambientales en industrias."),
-             p("- Conflictos por uso del agua."),
-             p("- Responsabilidad del Estado y de empresas."),
+             p("- Factores que promueven o limitan la participación juvenil."),
+             p("- Rol de las organizaciones barriales."),
+             p("- Influencia de las redes sociales en la participación."),
              p("Responder:  ¿Qué quiero saber?"),
              p("Responder:  ¿A quiénes afecta?"),
              p("Responder:  ¿Dónde y cuándo?"),
              p("Responder:  ¿Con qué información puedo responderlo?"),
-             p("Ejemplo: ¿Qué eficacia tuvo la Ley de Recursos Hídricos en la prevención de conflictos
- socio-ambientales en el litoral uruguayo entre 2010 y 2020?"),
+             p("Ejemplo: ¿Qué factores explican la baja participación de jóvenes en organizaciones comunitarias en barrios periféricos de Montevideo entre 2018 y 2023?"),
              
              br(),
-             p("Tema 4: Delitos informáticos y protección de datos"),
-             p("Ejercicio:  formular 2 problemas de investigación abordables desde el derecho."),
+             p("Tema 4: Migración y políticas públicas"),
+             p("Ejercicio:  formular 2 problemas de investigación abordables desde las ciencias sociales."),
              p("Pistas:"),
-             p("- Uso indebido de datos personales."),
-             p("- Hackeos y ciberseguridad."),
-             p("- Legislación comparada en América Latina."),
+             p("- Integración de migrantes en el mercado laboral."),
+             p("- Acceso a servicios de salud y educación."),
+             p("- Percepción social sobre la migración."),
              p("Responder:  ¿Qué quiero saber?"),
              p("Responder:  ¿A quiénes afecta?"),
              p("Responder:  ¿Dónde y cuándo?"),
              p("Responder:  ¿Con qué información puedo responderlo?"),
-             p(" Ejemplo: ¿Cómo ha evolucionado la jurisprudencia uruguaya en materia de protección de datos
- personales entre 2010 y 2022?"),
+             p("Ejemplo: ¿Cómo han impactado las políticas públicas en la integración laboral de migrantes en Uruguay entre 2010 y 2020?"),
+             
              br(),
              
              tags$hr(),
@@ -559,10 +555,11 @@ propia reflexión. La teoría permite procesar la ruptura epistemológica con el
 los enfoques teóricos, las investigaciones y los antecedentes en general, que se consideren válidos para el correcto encuadre del estudio» (Rojas, 2001, en Hernández 
 Sampieri, 2003).'"),
                tags$li("Evita duplicación y orienta hacia vacíos del conocimiento."),
-               tags$li("En Derecho: analiza doctrina, jurisprudencia y debates legislativos."),
-               tags$li("Ejemplo en Derecho: Al investigar sobre la aplicación de la Ley de Violencia Doméstica,
- el marco teórico puede basarse en teorías feministas que conceptualizan la violencia
- como una relación de poder estructural, más allá de los hechos individuales."),
+               tags$li("En Ciencias Sociales: analiza teorías, enfoques y debates académicos sobre fenómenos sociales."),
+               tags$li("Ejemplo en Ciencias Sociales: Al investigar sobre desigualdad educativa, 
+el marco teórico puede basarse en la teoría del capital cultural de Bourdieu, 
+que conceptualiza la educación como un espacio donde se reproducen desigualdades 
+sociales más allá de los logros individuales."),
                tags$li("Funciones del M.T. en el proceso de investigación: conduce a la formulación de hipótesis que serán contrastadas empíricamente, proporciona los principales conceptos que luego serán operacionalizados, orienta sobre cómo se realizará la investigación, es decir, sobre la estrategia 
 de la investigación, orienta la metodología inndicando variables a observar y medir, provee de un marco interpretativo a los resultados de la investigación (Hernández Sampieri, 2003)."),
                tags$li("Teoría: La idea de teoría o de qué es la teoría cuando se la define en el contexto de una investigación, impregna la totalidad del diseño, incluyendo obviamente la construcción 
@@ -574,30 +571,31 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
              ),
              tags$li("Diferencias entre Marco Teòrico, Marco Conceptual y Antecedentes (ver siguiente tabla)"),
              
-             # Tabla jurídica
+             # Tabla en Ciencias Sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
                tags$tr(
                  tags$th("Nivel", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
-                 tags$th("Ejemplo jurídico", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
+                 tags$th("Ejemplo en Ciencias Sociales", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
                ),
                # Fila 1
                tags$tr(
                  tags$td("Marco Teórico", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Teorías críticas del castigo y del sistema penal", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Teorías de la reproducción social y del capital cultural (Bourdieu)", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
                  tags$td("Marco Conceptual", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Conceptos: 'tratos crueles', 'rehabilitación'", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Conceptos: 'desigualdad educativa', 'capital social'", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
                  tags$td("Antecedentes", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Informes de la CIDH, jurisprudencia local", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Investigaciones previas sobre acceso a educación superior y participación comunitaria en Uruguay", style = "border: 1px solid black; padding: 6px;")
                )
              ),
+             br(),br(),
              
              h4("Quiz"),
              radioButtons("q5", "5) ¿Cuál es la función principal del marco teórico?",
@@ -608,17 +606,18 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
                           ), selected = character(0)),
              actionButton("submit4", "Responder"),
              textOutput("feedback4"),
-             
+             br(),br(),
              h4("Actividad práctica"),
              p("Caso: Estudias la Ley de Medio Ambiente. Identifica tres conceptos clave."),
              actionButton("sol4", "Ver respuesta sugerida"),
              textOutput("resp4"),
              br(),
              h4("Actividad práctica grupal 1"),
-             p("Identifica tres conceptos clave en temas como: Ley de Violencia doméstica, Acceso a la Justicia, Derechos Humanos en cárceles, Delitos informáticos, Corrupción/Transparencia u otros de tu interés."),
+             p("Identifica tres conceptos clave en temas como: Desigualdad educativa, Género y trabajo, Participación comunitaria, Migración, Políticas sociales u otros de tu interés."),
              br(),
              h4("Actividad práctica grupal domiciliaria entregable"),
-             p("Construye un marco teòrico para el tema elegido."),
+             p("Construye un marco teórico para el tema elegido."),
+             br(),
              
              tags$hr(),
              h4("Recursos complementarios:"),
@@ -660,10 +659,9 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
  formulación del problema y con el diseño de investigación."),
                tags$li("Objetivo general: propósito amplio."),
                tags$li("Objetivos específicos: pasos concretos."),
-               tags$li("Ejemplo en Derecho: Si se investiga la aplicación de la Ley de Violencia Doméstica, un
- objetivo general puede ser: Analizar la efectividad de las medidas cautelares previstas en
-                      la ley. Un objetivo específico: Examinar la rapidez en la emisión de medidas cautelares
-                      en los juzgados de familia"),
+               tags$li("Ejemplo en Ciencias Sociales: Si se investiga la desigualdad educativa, 
+un objetivo general puede ser: Analizar el impacto del nivel socioeconómico en el acceso a la educación superior. 
+Un objetivo específico: Examinar las diferencias en la tasa de ingreso a la universidad entre estudiantes de distintos estratos sociales en Montevideo entre 2015 y 2023."),
                
                br(),
                
@@ -736,21 +734,19 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
                  )
                ),
                br(),
-               tags$li("Ejemplo en Derecho: En un estudio sobre corrupción judicial: - Objetivo general:
- Explicar los factores que inciden en la percepción de corrupción en el Poder Judicial. 
-Objetivo específico: Analizar la relación entre transparencia en la designación de jueces y
-                     percepción de independencia judicial."),
+               tags$li("Ejemplo en Ciencias Sociales: En un estudio sobre desigualdad educativa: - Objetivo general: 
+Explicar los factores que inciden en la permanencia de estudiantes en educación secundaria. 
+Objetivo específico: Analizar la relación entre nivel socioeconómico y tasa de abandono escolar."),
                br(),
                tags$li("Relación de los objetivos con el diseño de investigación:"),
-               tags$li("Los objetivos no son independientes del diseño metodológico: - Definen si la investigación
- será cualitativa, cuantitativa o mixta. - Orientan la selección de técnicas de recolección de
- datos. - Determinan el nivel de profundidad del análisis."),
+               tags$li("Los objetivos no son independientes del diseño metodológico: - Definen si la investigación 
+será cualitativa, cuantitativa o mixta. - Orientan la selección de técnicas de recolección de 
+datos. - Determinan el nivel de profundidad del análisis."),
                br(),
-               tags$li("Ejemplo en Derecho: En un estudio sobre derechos humanos en cárceles: - Si el objetivo
- es describir condiciones de detención, se aplicará un diseño descriptivo con encuestas y
- observación. - Si el objetivo es explicar causas de violaciones de derechos, se requerirá
- un diseño explicativo con entrevistas en profundidad y análisis documental.
-"),
+               tags$li("Ejemplo en Ciencias Sociales: En un estudio sobre participación comunitaria: - Si el objetivo 
+es describir niveles de participación juvenil, se aplicará un diseño descriptivo con encuestas y 
+observación. - Si el objetivo es explicar causas de baja participación, se requerirá un diseño 
+explicativo con entrevistas en profundidad y análisis documental."),
                br(),
                tags$li("La definición de objetivos transforma el problema en un plan de acción. Un buen objetivo
  es claro, preciso y viable. En Derecho, los objetivos deben vincular teoría, normativa y
@@ -771,7 +767,7 @@ que se trate variará la estrategia de investigación. El diseño, los datos que
 de investigación son distintos en función del tipo de objetivos de la investigación: 
 exploratorios, descriptivos, explicativos, etcétera (Batthyany et ali)."),
                  br(),
-                 tags$li("En Derecho: definir si se estudiará normativa, práctica judicial o impacto social.")
+                 tags$li("En Ciencias Sociales: definir si se estudiará teoría, prácticas sociales o impacto comunitario.")
                )),
              br(),
              h4("Quiz"),
@@ -791,12 +787,11 @@ exploratorios, descriptivos, explicativos, etcétera (Batthyany et ali)."),
              textOutput("resp5"),
              br(),
              h4("Actividad práctica grupal"),
-             p("Formula un objetivo general y dos específicos sobre Acceso a la Justicia, Derechos en cárceles, Delitos informáticos, Medio Ambiente, Corrupción/Transparencia u otro tema de tu interés."),
+             p("Formula un objetivo general y dos específicos sobre Desigualdad educativa, Género y trabajo, Participación comunitaria, Migración, Políticas sociales u otro tema de tu interés."),
              p("Identifica cada objetivo de acuerdo a su tipo"),
              br(),
              h4("Actividad grupal domiciliaria entregable"),
-             p("Formula un diseño de investigaciòn con objetivo general y específicos sobre Acceso a la Justicia, Derechos en cárceles, Delitos informáticos, Medio Ambiente, Corrupción/Transparencia u otro tema de tu interés."),
-             
+             p("Formula un diseño de investigación con objetivo general y específicos sobre Desigualdad educativa, Género y trabajo, Participación comunitaria, Migración, Políticas sociales u otro tema de tu interés."),
              tags$hr(),
              h4("Recursos complementarios:"),
              tags$ul(
@@ -889,7 +884,7 @@ refutar o verificar hipótesis y no para establecerlas (Batthyany et ali). "),
  problemas jurídicos en preguntas investigables con base científica."),
                tags$li("Hipótesis descriptivas, correlacionales, causales, nulas y alternativas."),
                tags$li("Orientan la recolección y análisis de datos."),
-               tags$li("En Derecho: permiten evaluar impacto de normas y prácticas judiciales.")
+               tags$li("En Ciencias Sociales: permiten evaluar impacto de políticas públicas, prácticas sociales y dinámicas comunitarias.")
              ),
              br(),
              tags$li("Funciones de las hipótesis (Ver siguiente tabla)"),
@@ -924,7 +919,7 @@ refutar o verificar hipótesis y no para establecerlas (Batthyany et ali). "),
                )
              ),
              br(),
-             tags$li("Ejemplo en Derecho:"),
+             tags$li("Ejemplo:"),
              tags$li("En un estudio sobre violencia doméstica, se plantea la hipótesis: La existencia
                      de equipos técnicos interdisciplinarios en juzgados de familia reduce el tiempo de
                      respuesta en la adopción de medidas cautelares."),
@@ -967,7 +962,7 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
                )
              ),
              br(),
-             tags$li("Ejemplo en Derecho en un estudio sobre corrupción judicial:"),
+             tags$li("Ejemplo: en un estudio sobre corrupción judicial:"),
              tags$li("Hipótesis descriptiva: El 60% de los abogados percibe falta de transparencia en la designación de jueces"),
              tags$li("Hipótesis correlacional: La percepción de independencia judicial está asociada al nivel de
                      acceso a la información pública"),
@@ -981,7 +976,7 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
              tags$li("3. Redactar la hipótesis de forma precisa y coherente con los objetivos del
  estudio."),
              br(),
-             tags$li("Ejemplo en Derecho en un estudio sobre derechos humanos en cárceles:"),
+             tags$li("Ejemplo:en un estudio sobre derechos humanos en cárceles:"),
              tags$li("Hipótesis: El hacinamiento carcelario incrementa la frecuencia de denuncias por tratos crueles e
                      inhumanos"),
              br(),
@@ -1001,18 +996,16 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
              textOutput("resp6"),
              br(),
              
-             h4("Actividad práctica:  Medio ambiente"),
-             p(" Proponga una hipótesis correlacional entre aplicación de sanciones y cumplimiento de
- normas ambientales."),
+             h4("Actividad práctica:  Educación"),
+             p("Proponga una hipótesis correlacional entre nivel socioeconómico y acceso a la educación superior."),
              
              br(),
-             h4("Actividad práctica grupal: Acceso a la justicia"),
-             p("Redacta una hipótesis descriptiva sobre barreras de acceso en poblaciones vulnerables."),
+             h4("Actividad práctica grupal: Género y trabajo"),
+             p("Redacta una hipótesis descriptiva sobre brechas salariales en mujeres jóvenes."),
              
              br(),
-             h4("Actividad grupal domiciliaria entregable:  Delitos informáticos"),
-             p(" Elabore una hipótesis causal sobre el aumento de fraudes electrónicos y la falta de
- regulación específica."),
+             h4("Actividad grupal domiciliaria entregable: Participación comunitaria"),
+             p("Elabore una hipótesis causal sobre la baja participación juvenil en organizaciones barriales y la falta de políticas públicas de incentivo."),
              
              tags$hr(),
              h4("Recursos complementarios:"),
@@ -1052,31 +1045,31 @@ determinado (Cea D’Ancona, 1996: 126)."),
              br(),
              tags$li("Tipos de variables"),
              
-             # Tabla jurídica
+             # Tabla en Ciencias Sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
                tags$tr(
                  tags$th("Variables", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
-                 tags$th("Tipo", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
+                 tags$th("Ejemplo en Ciencias Sociales", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
                ),
                # Fila 1
                tags$tr(
                  tags$td("Según su naturaleza:", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("cuantitativas (numéricas) y cualitativas (categóricas).", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("cuantitativas (ej.: ingreso mensual) y cualitativas (ej.: género, ocupación).", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
                  tags$td("Según su rol:", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("independientes (causas) y dependientes (efectos).", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("independientes (ej.: nivel educativo) y dependientes (ej.: participación política).", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
                  tags$td("Según su escala:", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("nominal, ordinal, de intervalo y de razón.", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("nominal (ej.: estado civil), ordinal (ej.: nivel socioeconómico), de intervalo (ej.: edad en rangos) y de razón (ej.: ingreso exacto).", style = "border: 1px solid black; padding: 6px;")
                )
              ),
-             br(),br(),
+             br(), br(),
              h4("Operacionalización"),br(),
              tags$li("Proceso por el cual se realiza el pasaje de los conceptos (constructos teóricos) a las variables. La importancia de una correcta operacionalización se expresa por sí misma si las variables no pueden ser 
 observadas y medidas en la realidad (Batthyány et ali).  El proceso de operacionalización consiste en la transformación de conceptos y 
@@ -1085,9 +1078,9 @@ indicadores. Por ejemplo, algunas variables son directamente observables, como e
 conceptos más abstractos, como el estrato social o la calidad del empleo, que se encuentran más alejadas del plano empírico, por lo cual es necesario realizar un 
 proceso de operacionalización que permita identificar variables para representar a los constructos teóricos (op. cit)."),
              br(),
-             tags$li("Ejemplos de Variables según su rol en Derecho"),
+             tags$li("Ejemplos de Variables según su rol en Ciencias Sociales"),
              
-             # Tabla jurídica
+             # Tabla en Ciencias Sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
@@ -1098,24 +1091,24 @@ proceso de operacionalización que permita identificar variables para representa
                ),
                # Fila 1
                tags$tr(
-                 tags$td("Medidas cautelares en violencia doméstica", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Equipos interdisciplinarios", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td(" Tiempo de adopción", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Desigualdad educativa", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Nivel socioeconómico", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Acceso a educación superior", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
-                 tags$td("Juicios penales", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Carga de expedientes por juez", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Duración del proceso", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Género y trabajo", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Sexo de la persona trabajadora", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Nivel salarial", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
-                 tags$td("Corrupción en licitaciones", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Transparencia del proceso", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Casos investigados", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Participación comunitaria", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Edad de los jóvenes", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Frecuencia de participación en organizaciones barriales", style = "border: 1px solid black; padding: 6px;")
                )
              ),
-             br(),br(),
+             br(), br(),
              h4("Indicadores"),
              br(),
              tags$li("Definición: Un indicador es una medida observable y operacional de una variable. Dicha medida debe ser válida,
@@ -1125,8 +1118,8 @@ proceso de operacionalización que permita identificar variables para representa
              tags$li("El principio de confiabilidad implica que observaciones repetidas por el mismo observador deben producir los mismos datos"),
              tags$li("La pertinencia se refiere a que el indicador debe estar alineado con los objetivos de investigación."),
              br(),
-             tags$li("Ejemplos de Indicadores en Derecho"),
-             # Tabla jurídica
+             tags$li("Ejemplos de Indicadores en Ciencias Sociales"),
+             # Tabla en Ciencias Sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
@@ -1137,24 +1130,24 @@ proceso de operacionalización que permita identificar variables para representa
                ),
                # Fila 1
                tags$tr(
-                 tags$td("Violencia doméstica", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Denuncias", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Tasa de denuncias ", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Desigualdad educativa", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Nivel socioeconómico", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Porcentaje de estudiantes que acceden a educación superior según quintil de ingreso", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
-                 tags$td("Acceso a la justicia", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Tiempo resolución", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Media de días de trámite (promedio)", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Género y trabajo", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Sexo de la persona trabajadora", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Brecha salarial promedio entre hombres y mujeres", style = "border: 1px solid black; padding: 6px;")
                ),
-               # Fila 
+               # Fila 3
                tags$tr(
-                 tags$td("Corrupción", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Investigaciones", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Número de investigaciones iniciadas c/ 100 licitaciones", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Participación comunitaria", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Edad de los jóvenes", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Frecuencia de asistencia a reuniones barriales por grupo etario", style = "border: 1px solid black; padding: 6px;")
                )
              ),
-             br(),br(),
+             br(), br(),
              h4("Índices"),
              br(),
              tags$li("Definición:  Los índices son indicadores complejos que resumen un conjunto de indicadores. Un índice combina varios indicadores en una sola medida compuesta. Se usa para resumir dimensiones
@@ -1162,9 +1155,9 @@ proceso de operacionalización que permita identificar variables para representa
  normalización, ponderación y agregación."),
              br(),
              br(),
-             tags$li("Ejemplo práctico: Índice simplificado de Acceso a la Justicia"),
+             tags$li("Ejemplo práctico: Índice simplificado de Desigualdad Educativa"),
              
-             # Tabla jurídica
+             # Tabla en Ciencias Sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
@@ -1175,12 +1168,12 @@ proceso de operacionalización que permita identificar variables para representa
                # Fila 1
                tags$tr(
                  tags$td("1. Selección de dimensiones", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td(" Disponibilidad de defensa pública; tiempo de resolución; costos; distancia al tribunal", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Acceso a educación superior; permanencia en secundaria; brecha de género; nivel socioeconómico", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
                  tags$td("2. Indicadores", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Tasa de representación legal gratuita; media de días a resolución; porcentaje con costos reducidos; distancia media en km", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Porcentaje de ingreso a universidad; tasa de abandono escolar; diferencia en logros por género; distribución por quintiles de ingreso", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
@@ -1190,7 +1183,7 @@ proceso de operacionalización que permita identificar variables para representa
                # Fila 4
                tags$tr(
                  tags$td("4. Ponderación", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Asignar pesos según criterio (ej. 0.3, 0.3, 0.2, 0.2)", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Asignar pesos según criterio (ej. 0.25, 0.25, 0.25, 0.25)", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 5
                tags$tr(
@@ -1198,14 +1191,14 @@ proceso de operacionalización que permita identificar variables para representa
                  tags$td("Suma ponderada para obtener índice final (0-100)", style = "border: 1px solid black; padding: 6px;")
                )
              ),
-             br(),br(),
+             br(), br(),
              
              h4("Conceptos clave"),
              tags$ul(
                tags$li("Variable: atributo medible."),
                tags$li("Indicador: expresión empírica de la variable."),
                tags$li("Índice: suma de indicadores."),
-               tags$li("En Derecho: medir acceso a justicia = Nº defensores públicos/población vulnerable.")
+               tags$li("En C.S. y Derecho: medir acceso a justicia = Nº defensores públicos/población vulnerable.")
              ),
              br(),br(),
              h4("Quiz"),
@@ -1225,18 +1218,19 @@ proceso de operacionalización que permita identificar variables para representa
              br(),br(),
              
              
-             h4("Actividad indiviual: Corrupción en licitaciones"),
-             p(" Propuestas de indicadores cuantitativos y una escala ordinal para evaluar transparencia en procesos."),
+             h4("Actividad individual: Desigualdad educativa"),
+             p("Propuestas de indicadores cuantitativos y una escala ordinal para evaluar acceso y permanencia en educación."),
              
              br(),
-             h4("Actividad grupal: Derechos en cárceles"),
-             p("Construyan un indicador compuesto para 'condiciones materiales' usando 3 variables (salud,
- hacinamiento, acceso a programas)."),
+             h4("Actividad grupal: Participación comunitaria"),
+             p("Construyan un indicador compuesto para 'participación juvenil' usando 3 variables (asistencia a reuniones, 
+organización de actividades, uso de redes sociales)."),
              
              br(),
-             h4("Actividad grupal domiciliaria entregable:  Delitos informáticos"),
-             p("Propongan indicadores que permitan medir la incidencia y la sofisticación de fraudes electrónicos.
-"),
+             h4("Actividad grupal domiciliaria entregable: Migración"),
+             p("Propongan indicadores que permitan medir la integración de migrantes en el mercado laboral y en el acceso a servicios."),
+             br(),
+             
              
              tags$hr(),
              h4("Recursos complementarios:"),
@@ -1279,14 +1273,14 @@ proceso de operacionalización que permita identificar variables para representa
              tags$li("Unidades de análisis: Son los sujetos, casos u objetos concretos que se observan en la investigación.
  Pueden ser personas, instituciones, documentos, normas o decisiones judiciales."),
              br(),
-             tags$li("Ejemplos:"),br(),
+             tags$li("Ejemplos:"),
+             br(),
              tags$ul(
-               tags$li("Individuos: mujeres víctimas de violencia de género."),
-               tags$li("Instituciones: juzgados especializados en familia."),
-               tags$li("Normas: leyes ambientales o penales."),
-               tags$li("Documentos: expedientes judiciales de procesos laborales."),
-               tags$li("Decisiones: sentencias de la Suprema Corte de Justicia.
-"),
+               tags$li("Individuos: jóvenes en situación de desempleo."),
+               tags$li("Instituciones: organizaciones comunitarias y centros educativos."),
+               tags$li("Normas: políticas públicas de inclusión social."),
+               tags$li("Documentos: encuestas de hogares y estudios de opinión."),
+               tags$li("Decisiones: programas implementados por ministerios de desarrollo social.")
              ),
              br(),
              h4("Población y Muestra"),br(),
@@ -1296,14 +1290,15 @@ proceso de operacionalización que permita identificar variables para representa
              br(),
              tags$li("Ejemplos:"),
              tags$ul(
-               tags$li("Población: todos los expedientes judiciales de violencia doméstica en Montevideo (2018-2022)."),
-               tags$li("Muestra: 300 expedientes seleccionados aleatoriamente de ese período."),br(),
-               tags$li("Población: conjunto total de jueces en materia penal en Uruguay."),
-               tags$li("Muestra: 50 jueces seleccionados aleatoriamente"),
+               tags$li("Población: todos los estudiantes de educación secundaria en Montevideo (2018-2022)."),
+               tags$li("Muestra: 300 estudiantes seleccionados aleatoriamente de ese período."),
+               br(),
+               tags$li("Población: conjunto total de mujeres trabajadoras en Uruguay."),
+               tags$li("Muestra: 50 mujeres seleccionadas aleatoriamente.")
              ),
              br(),
-             tags$li("Ejemplos Jurídicos:"),
-             # Tabla jurídica
+             tags$li("Ejemplos en Ciencias Sociales:"),
+             # Tabla en Ciencias Sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
@@ -1315,40 +1310,40 @@ proceso de operacionalización que permita identificar variables para representa
                ),
                # Fila 1
                tags$tr(
-                 tags$td("Eficacia de medidas de protección en violencia doméstica", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Medidas cautelares dictadas", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Todas las medidas dictadas entre 2018-2022", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("muestra aleatoria de 1000 medidas dictadas entre 2018-2022", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Impacto del nivel socioeconómico en acceso a educación superior", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Estudiantes de secundaria", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Todos los estudiantes de secundaria en Montevideo entre 2018-2022", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Muestra aleatoria de 1000 estudiantes de secundaria entre 2018-2022", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
-                 tags$td("Aplicación de la Ley de Medio Ambiente", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Todas las sentencias judiciales ambientales dictadas", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Sentencias dictadas en Uruguay 2015-2022", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("muestra aleatoria de 100 sentencias dictadas entre 2015-2022", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Brecha salarial de género", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Trabajadores/as en el mercado laboral", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Todas las personas ocupadas en Uruguay 2015-2022", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Muestra aleatoria de 1000 personas ocupadas entre 2015-2022", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
-                 tags$td("Acceso a la justicia de poblaciones vulnerables", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Expedientes iniciados", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Todos los expedientes iniciados con defensa pública", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("muestra aleatoria de 1000 expedientes iniciados con defensa pública", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Participación juvenil en organizaciones comunitarias", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Jóvenes entre 15 y 24 años", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Todos los jóvenes residentes en barrios periféricos de Montevideo", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Muestra aleatoria de 500 jóvenes residentes en barrios periféricos", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 4
                tags$tr(
-                 tags$td("Corrupción en licitaciones", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Casos judiciales de corrupción", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Todos los Procesos por corrupción", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("muestra aleatoria de 200 Procesos por corrupción", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Integración de migrantes en el mercado laboral", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Migrantes residentes en Uruguay", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Todos los migrantes registrados en Uruguay entre 2015-2022", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Muestra aleatoria de 200 migrantes registrados entre 2015-2022", style = "border: 1px solid black; padding: 6px;")
                )
              ),
-             br(),br(),
+             br(), br(),
              h4("Conceptos clave"),
              tags$ul(
                tags$li("Unidad de análisis: persona, institución, expediente."),
                tags$li("Población: conjunto total."),
                tags$li("Muestra: parte representativa."),
-               tags$li("En Derecho: un caso judicial puede ser unidad de análisis.")
+               tags$li("En C.S.: una escuela puede ser unidad de análisis.")
              ),br(),br(),
              
              h4("Quiz"),
@@ -1360,31 +1355,31 @@ proceso de operacionalización que permita identificar variables para representa
                           ), selected = character(0)),
              actionButton("submit8", "Responder"),
              textOutput("feedback8"),
-             br(),br(),
+             br(), br(),
              h4("Actividad práctica"),
-             p("Define población y muestra para un estudio sobre corrupción judicial."),
+             p("Define población y muestra para un estudio sobre desigualdad educativa."),
              actionButton("sol8", "Ver respuesta sugerida"),
              textOutput("resp8"),
              br(),
              
-             h4("Actividad indiviual: Violencia doméstica"),
-             p("Defina unidad de análisis y población para estudiar medidas de protección."),
+             h4("Actividad individual: Género y trabajo"),
+             p("Defina unidad de análisis y población para estudiar brecha salarial."),
              
              br(),
-             h4("Actividad individual: Acceso a la justicia"),
-             p("Plantee población y muestra para investigar zonas rurales."),
+             h4("Actividad individual: Participación comunitaria"),
+             p("Plantee población y muestra para investigar jóvenes en barrios periféricos."),
              
              br(),
-             h4("Actividad grupal: Medio ambiente"),
-             p("Determine unidad y población en casos de contaminación industrial."),
+             h4("Actividad grupal: Migración"),
+             p("Determine unidad y población en casos de integración laboral de migrantes."),
              br(),
-             h4("Actividad grupal domiciliaria entregable:  Corrupción"),
-             p("Diseñe muestreo de procesos judiciales 2010-2020."),
+             
+             h4("Actividad grupal domiciliaria entregable: Políticas sociales"),
+             p("Diseñe muestreo de beneficiarios de programas sociales 2010-2020."),
              
              br(),
-             h4("Actividad grupal domiciliaria entregable: Delitos informáticos"),
-             p("Unidad y población para fraudes electrónicos."),
-             
+             h4("Actividad grupal domiciliaria entregable: Participación digital"),
+             p("Unidad y población para analizar uso de redes sociales en participación política juvenil."),
              
              br(),
              tags$hr(),
@@ -1504,10 +1499,12 @@ explicar relaciones entre variables.")
  especialmente cuando se pretende probar hipótesis y obtener resultados generalizables."),br(),
              h4("Ejemplos"),br(),
              tags$ul(
-               tags$li("Medir la relación entre cantidad de jueces especializados y duración promedio de juicios penales."),
-               tags$li("Analizar correlación entre recursos judiciales y cumplimiento de plazos procesales."),
-               tags$li("Evaluar evolución anual de casos de corrupción procesados entre 2010 y 2023.
-")
+               tags$li("Medir la relación entre nivel educativo de los hogares y acceso a empleo formal."),
+               tags$li("Analizar correlación entre participación en organizaciones barriales y percepción de confianza institucional."),
+               tags$li("Evaluar evolución de la migración interna y su impacto en el mercado laboral urbano."),
+               tags$li("Observar cambios en la distribución de tareas domésticas según género en distintos estratos sociales."),
+               tags$li("Examinar variaciones en el consumo cultural de jóvenes según nivel socioeconómico."),
+               tags$li("Evaluar evolución anual del empleo generado por hogares MIPYME dependientes entre 2023 y 2025.")
              ),
              br(),br(),
              h4("Características de la investigación cualitativa"),br(),
@@ -1551,12 +1548,14 @@ investigación.")
              h4("Resumen del Método Cualitativo"),br(),
              tags$li("El método cualitativo busca comprender significados, percepciones y experiencias en profundidad. Es
  útil en investigaciones exploratorias y cuando se abordan fenómenos complejos o poco estudiados."),br(),
-             h4("Ejemplos"),
+             h4("Ejemplos"),br(),
              tags$ul(
-               tags$li("Analizar relatos de víctimas sobre barreras en el acceso a medidas de protección."),
-               tags$li("Estudiar discursos judiciales en sentencias sobre delitos ambientales."),
-               tags$li("Observar audiencias orales para identificar prácticas de los actores judiciales.
-")
+               tags$li("Analizar testimonios de hogares MIPYME dependientes sobre barreras en el acceso a financiamiento."),
+               tags$li("Estudiar discursos de políticas públicas en relación con la igualdad de género."),
+               tags$li("Observar dinámicas comunitarias para identificar prácticas de cooperación en barrios urbanos."),
+               tags$li("Examinar relatos de migrantes sobre integración laboral en sectores de servicios."),
+               tags$li("Evaluar percepciones de género en la distribución de tareas dentro de hogares MIPYME dependientes."),
+               tags$li("Analizar evolución de la participación en programas sociales entre 2010 y 2023.")
              ),
              br(),br(),
              h4("Resumen del Método Mixto"),br(),
@@ -1564,47 +1563,44 @@ investigación.")
  ventaja es ofrecer una comprensión más completa y contrastada de los fenómenos jurídicos."),br(),
              h4("Ejemplos"),br(),
              tags$ul(
-               tags$li("Acceso a la justicia: estadísticas de expedientes judiciales + entrevistas a usuarios."),
-               tags$li("Impacto de la Ley de Violencia de Género: comparación de indicadores numéricos con
- testimonios de operadores jurídicos."),
-               tags$li("Efectividad de políticas ambientales: análisis de sentencias + encuestas a comunidades
- afectadas.")
+               tags$li("Acceso a créditos bancarios: estadísticas de hogares MIPYME dependientes + entrevistas a beneficiarios."),
+               tags$li("Impacto de políticas de género: comparación de indicadores numéricos con testimonios de mujeres en hogares MIPYME."),
+               tags$li("Efectividad de políticas educativas: análisis de datos de matrícula + encuestas a familias."),
+               tags$li("Migración interna: evolución de registros poblacionales + relatos de comunidades receptoras."),
+               tags$li("Participación ciudadana: indicadores de asistencia a cabildos + observación de dinámicas comunitarias.")
              ),
              br(),
              h4("Métodos"),
              
-             # Tabla jurídica
+             # Tabla ciencias sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
                tags$tr(
                  tags$th("Método", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
                  tags$th("Características", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
-                 tags$th("Ejemplo en Derecho", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
+                 tags$th("Ejemplo en Ciencias Sociales", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
                ),
                # Fila 1
                tags$tr(
                  tags$td("Cuantitativo", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td(HTML("• Busca medir y cuantificar fenómenos.<br/> • Se apoya en datos numéricos y análisis estadístico.<br/>
- • Permite generalizar resultados."), style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Analizar estadísticas judiciales de violencia de género.", style = "border: 1px solid black; padding: 6px;")
+                 tags$td(HTML("• Busca medir y cuantificar fenómenos.<br/> • Se apoya en datos numéricos y análisis estadístico.<br/> • Permite generalizar resultados."), style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Analizar estadísticas de ingresos en hogares MIPYME dependientes.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
                  tags$td("Cualitativo", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td(HTML("• Se centra en significados, experiencias y procesos.<br/>
- • Utiliza entrevistas, observación, análisis documental. <br/>• Busca profundidad más que generalización."), style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Entrevistar a juezas y víctimas sobre ley 19580", style = "border: 1px solid black; padding: 6px;")
+                 tags$td(HTML("• Se centra en significados, experiencias y procesos.<br/> • Utiliza entrevistas, observación, análisis documental.<br/> • Busca profundidad más que generalización."), style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Entrevistar a familias sobre estrategias de supervivencia en contextos de crisis económica.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
-                 tags$td(" Mixto", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td(HTML("• Combina técnicas cuantitativas y cualitativas.<br/> • Permite complementar datos numéricos con interpretaciones profundas.<br/> • Integra fortalezas de ambos enfoques.
-"), style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Acceso a la justicia en poblaciones rurales: estadísticas + entrevistas.", style = "border: 1px solid black; padding: 6px;")
-               )
+                 tags$td("Mixto", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td(HTML("• Combina técnicas cuantitativas y cualitativas.<br/> • Permite complementar datos numéricos con interpretaciones profundas.<br/> • Integra fortalezas de ambos enfoques."), style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Explorar necesidades y expectativas de hogares MIPYME dependientes: encuestas + entrevistas.", 
+                         style = "border: 1px solid black; padding: 6px;"))
              ),
-             br(), br(),
+             br(),br(),
              h4("Comparación entre investigación cuantitativa y cualitativa"),
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
@@ -1659,7 +1655,7 @@ investigación.")
                tags$li("Cuantitativo: busca generalización."),
                tags$li("Cualitativo: busca comprensión profunda."),
                tags$li("Mixto: combina ambos."),
-               tags$li("En Derecho: análisis estadístico + entrevistas.")
+               tags$li("Ejemplo en C.S.: análisis estadístico + entrevistas.")
              ),
              br(),
              h4("Elección del Método"), br(),
@@ -1670,7 +1666,7 @@ investigación.")
                tags$li("El tipo de datos disponibles."),
                tags$li("El tiempo y los recursos.")
              ),
-             tags$li("En Derecho, la selección adecuada del método
+             tags$li("En Ciencias Sociales, la selección adecuada del método
  permite responder a preguntas tanto sobre la magnitud de los fenómenos (cuánto) como sobre sus
  causas y significados (por qué y cómo)."),
              br(),
@@ -1685,33 +1681,33 @@ investigación.")
              textOutput("feedback9"),
              br(), br(),
              h4("Actividad práctica"),
-             p("¿Qué método usarías para estudiar la efectividad de las audiencias orales?"),
+             p("¿Qué método usarías para estudiar la sostenibilidad económica de hogares MIPYME dependientes?"),
              actionButton("sol9", "Ver respuesta sugerida"),
              textOutput("resp9"),
              
              br(),
-             h4("Actividad indiviual: Violencia doméstica"),
-             p("Formule un diseño de investigación cuantitativo sobre reincidencia en delitos de violencia
- doméstica."),
+             h4("Actividad individual: Violencia doméstica"),
+             p("Formule un diseño de investigación cuantitativo sobre reincidencia en casos de violencia doméstica."),
              
              br(),
              h4("Actividad individual: Acceso a la justicia"),
-             p("Proponga un estudio mixto sobre acceso a la justicia en poblaciones afrodescendientes o trans"),
+             p("Proponga un estudio mixto sobre acceso a la justicia en poblaciones afrodescendientes o trans."),
              
              br(),
              h4("Actividad grupal: Medio ambiente"),
-             p("Diseñe una entrevista cualitativa para jueces sobre aplicación de la Ley de Medio
- Ambiente."),
-             br(),
-             h4("Actividad grupal domiciliaria entregable:  Corrupción"),
-             p("Compare ventajas y limitaciones del enfoque cuantitativo y cualitativo para estudiar
- corrupción judicial."),
+             p("Diseñe una entrevista cualitativa para comunidades sobre percepciones de la contaminación ambiental en barrios urbanos."),
              
              br(),
-             h4("Actividad grupal domiciliaria entregable: Delitos informáticos"),
-             p("Redacte posibles hipótesis a contrastar con un método cuantitativo y preguntas de
- investigación para un método cualitativo.
-"),
+             h4("Actividad grupal domiciliaria entregable: Hogares MIPYME"),
+             p("Compare ventajas y limitaciones del enfoque cuantitativo y cualitativo para estudiar resiliencia de hogares MIPYME dependientes."),
+             
+             br(),
+             h4("Actividad grupal domiciliaria entregable: Migración"),
+             p("Redacte posibles hipótesis a contrastar con un método cuantitativo y preguntas de investigación para un método cualitativo sobre integración laboral de migrantes."),
+             
+             br(),
+             h4("Actividad grupal domiciliaria entregable: Participación ciudadana"),
+             p("Analice cómo distintos métodos permiten estudiar la relación entre participación comunitaria y confianza en instituciones democráticas."),
              
              br(),
              tags$hr(),
@@ -1762,38 +1758,38 @@ mismo obtiene, mediante la aplicación de una o varias técnicas de obtención d
 generados por otros investigadores u otras fuentes como internet y repositorios, datos no publicados elaborados por organismos públicos y privados (ejemplos: I.N.E., Poder Judicial)."),
              br(), br(),
              h4("Técnicas Cuantitativas"),
-             # Tabla jurídica
+             # Tabla ciencias sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
                tags$tr(
                  tags$th("Técnica", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
                  tags$th("Características", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
-                 tags$th("Ejemplo en Derecho", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
+                 tags$th("Ejemplo en Ciencias Sociales", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
                ),
                # Fila 1
                tags$tr(
                  tags$td("Encuesta", style = "border: 1px solid black; padding: 6px;"),
                  tags$td("Aplicación masiva de preguntas estandarizadas a una muestra.", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Encuesta sobre percepción ciudadana de acceso a la justicia", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Encuesta sobre condiciones laborales en hogares MIPYME dependientes.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
                  tags$td("Cuestionario", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Preguntas cerradas para medir variables específicas", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Cuestionario a abogados sobre tiempos procesales", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Preguntas cerradas para medir variables específicas.", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Cuestionario a familias sobre acceso a servicios de salud y educación.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
                  tags$td("Censo", style = "border: 1px solid black; padding: 6px;"),
                  tags$td("Aplicación masiva de preguntas estandarizadas a una población.", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Censo a jueces penales", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Censo de hogares MIPYME dependientes en zonas urbanas y rurales.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 4
                tags$tr(
                  tags$td("Análisis estadístico", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Uso de bases de datos para identificar tendencias", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Estadísticas judiciales de violencia de género (2015-2023)", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Uso de bases de datos para identificar tendencias.", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Estadísticas sobre migración interna y su impacto en el empleo juvenil (2010-2023).", style = "border: 1px solid black; padding: 6px;")
                )
              ),
              br(), br(),
@@ -1886,67 +1882,63 @@ Su objetivo es medir variables previamente definidas y obtener información comp
              tags$ul(
                tags$li("Resume y organiza los datos."),
                tags$li("Usa medidas como media, mediana, moda, desviación estándar."),
-               tags$li("Ejemplo: calcular la duración promedio de los procesos judiciales penales.")
-               
+               tags$li("Ejemplo: calcular el ingreso promedio mensual de hogares MIPYME dependientes.")
              ),
              br(),
              h4("Análisis inferencial:"),
              tags$ul(
                tags$li("Permite hacer generalizaciones y contrastar hipótesis."),
                tags$li("Usa pruebas de significancia, intervalos de confianza, regresiones."),
-               tags$li("Ejemplo: comprobar si existe relación significativa entre el nivel de recursos de un juzgado y el tiempo de resolución de causas.")
-               
+               tags$li("Ejemplo: comprobar si existe relación significativa entre nivel educativo y acceso a empleo formal en hogares MIPYME dependientes.")
              ),
              br(),
              h4("Análisis multivariante:"),
              tags$ul(
                tags$li("Examina simultáneamente varias variables."),
-               tags$li("Ejemplo: analizar cómo influyen edad, género y situación socioeconómica en el acceso a la justicia.")
-               
+               tags$li("Ejemplo: analizar cómo influyen edad, género y situación socioeconómica en la participación comunitaria.")
              ),
              br(),
-             h4("Ejemplos aplicados al Derecho"),
+             h4("Ejemplos aplicados a Ciencias Sociales"),
              tags$ul(
-               tags$li("Violencia domestica: análisis estadístico de denuncias registradas en juzgados especializados para identificar tendencias por año."),
-               tags$li("Acceso a la justicia: comparar tiempos promedio de resolución en diferentes materias (penal, civil, familia)."),
-               tags$li("Derecho laboral: analizar la relación entre sector económico y frecuencia de demandas laborales.")
-               
+               tags$li("Hogares MIPYME dependientes: análisis estadístico de ingresos y acceso a servicios básicos para identificar desigualdades."),
+               tags$li("Migración: comparar tasas de empleo entre migrantes internos y externos en zonas urbanas."),
+               tags$li("Educación: analizar la relación entre nivel socioeconómico y rendimiento escolar en secundaria.")
              ),
              br(),
              
              h4("Técnicas Cualitativas"),
-             # Tabla jurídica
+             # Tabla ciencias sociales
              tags$table(
                style = "width:100%; border-collapse: collapse; margin-top: 10px;",
                # Encabezado
                tags$tr(
                  tags$th("Técnica", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
                  tags$th("Características", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;"),
-                 tags$th("Ejemplo en Derecho", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
+                 tags$th("Ejemplo en Ciencias Sociales", style = "border: 1px solid black; padding: 6px; background-color: #f2f2f2;")
                ),
                # Fila 1
                tags$tr(
                  tags$td("Entrevista", style = "border: 1px solid black; padding: 6px;"),
                  tags$td("Conversaciones en profundidad.", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Entrevista a jueces sobre aplicación de Ley de tenencia compartida", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Entrevista a familias de hogares MIPYME dependientes sobre estrategias de resiliencia económica.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 2
                tags$tr(
                  tags$td("Grupo focal", style = "border: 1px solid black; padding: 6px;"),
                  tags$td("Discusión grupal sobre un tema.", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Grupo focal con víctimas de violencia de género", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Grupo focal con jóvenes sobre participación comunitaria y confianza en instituciones.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 3
                tags$tr(
                  tags$td("Análisis documental", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Revisión de documentos y textos jurídicos.", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Análisis de sentencias de la Suprema Corte", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Revisión de documentos y textos sociales.", style = "border: 1px solid black; padding: 6px;"),
+                 tags$td("Análisis de informes de políticas públicas sobre inclusión social.", style = "border: 1px solid black; padding: 6px;")
                ),
                # Fila 4
                tags$tr(
                  tags$td("Observación", style = "border: 1px solid black; padding: 6px;"),
                  tags$td("Registro sistemático de conductas.", style = "border: 1px solid black; padding: 6px;"),
-                 tags$td("Observación de audiencias orales en juicios penales", style = "border: 1px solid black; padding: 6px;")
+                 tags$td("Observación de dinámicas de cooperación en ferias de hogares MIPYME dependientes.", style = "border: 1px solid black; padding: 6px;")
                )
              ),
              br(), br(),
@@ -2000,21 +1992,22 @@ acciones y comprender, mediante un proceso de identificación, sus motivaciones
 (Corbetta, 2007: 305)."),
              br(),
              h4("Técnicas Mixtas"), br(),
-             tags$li("Las técnicas mixtas integran herramientas cuantitativas y cualitativas. En el campo jurídico permiten
- combinar estadísticas de expedientes con entrevistas o análisis de sentencias."),
+             tags$li("Las técnicas mixtas integran herramientas cuantitativas y cualitativas. En ciencias sociales permiten combinar estadísticas de encuestas con entrevistas, observación o análisis documental."),
              br(),
              tags$li("Ejemplos"),
              tags$ul(
-               tags$li("Acceso a la justicia: análisis de expedientes + entrevistas a usuarios."),
-               tags$li("Eficacia de la Ley 19.580: encuestas a operadores + revisión de sentencias."),
-               tags$li("Estudio sobre delitos informáticos: bases estadísticas + grupos focales con fiscales.")
+               tags$li("Hogares MIPYME dependientes: análisis de ingresos y empleo + entrevistas sobre estrategias de resiliencia."),
+               tags$li("Migración interna: encuestas a familias migrantes + grupos focales en comunidades receptoras."),
+               tags$li("Educación: estadísticas de matrícula escolar + entrevistas a docentes sobre desigualdades en el aula."),
+               tags$li("Participación ciudadana: indicadores de asistencia a cabildos + observación de dinámicas comunitarias."),
+               tags$li("Género: encuestas sobre distribución de tareas domésticas + relatos de mujeres en hogares MIPYME dependientes.")
              ),
              br(),
              h4("Conceptos clave"),
              tags$ul(
                tags$li("Encuestas, censos, entrevistas, observación, etc."),
-               tags$li("Análisis documental y jurisprudencial."),
-               tags$li("En Derecho: entrevistas a jueces, análisis de sentencias, encuestas a operadores.")
+               tags$li("Análisis documental y de políticas públicas."),
+               tags$li("En Ciencias Sociales: entrevistas a familias, análisis de programas sociales, encuestas a comunidades.")
              ),
              br(), br(),
              h4("Quiz"),
@@ -2029,27 +2022,33 @@ acciones y comprender, mediante un proceso de identificación, sus motivaciones
              br(), br(),
              
              h4("Actividad práctica"),
-             p("Diseña una entrevista semiestructurada a abogados sobre acceso a justicia digital."),
+             p("Diseña una entrevista semiestructurada a familias de hogares MIPYME dependientes sobre acceso a recursos."),
              actionButton("sol10", "Ver respuesta sugerida"),
              textOutput("resp10"),
              br(),
-             h4("Actividad indiviual: Violencia doméstica"),
-             p("Diseñe una entrevista a defensores pùblicos sobre violencia doméstica con 3 preguntas abiertas."),
+             
+             h4("Actividad individual: Violencia doméstica"),
+             p("Diseñe una entrevista a mujeres en hogares monoparentales sobre violencia doméstica con 3 preguntas abiertas."),
              
              br(),
              h4("Actividad individual: Acceso a la justicia"),
-             p("Formule un cuestionario de 5 preguntas cerradas sobre acceso a la justicia en poblaciones afrodescendientes o trans"),
+             p("Formule un cuestionario de 5 preguntas cerradas sobre acceso a la justicia en poblaciones afrodescendientes o trans."),
              
              br(),
              h4("Actividad grupal: Medio ambiente"),
-             p("Elabore un esquema de análisis documental para revisar sentencias ambientales."),
-             br(),
-             h4("Actividad grupal domiciliaria entregable:  Corrupción"),
-             p("Plantee un diseño mixto sobre corrupción judicial."),
+             p("Elabore un esquema de análisis documental para revisar políticas ambientales y su impacto en comunidades locales."),
              
              br(),
-             h4("Actividad grupal domiciliaria entregable: Delitos informáticos"),
-             p("Diseñe una encuesta a jueces sobre Delitos informáticos"),
+             h4("Actividad grupal domiciliaria entregable: Hogares MIPYME dependientes"),
+             p("Plantee un diseño mixto para estudiar estrategias de adaptación económica en hogares MIPYME dependientes: encuestas + entrevistas."),
+             
+             br(),
+             h4("Actividad grupal domiciliaria entregable: Migración"),
+             p("Diseñe una encuesta a familias migrantes sobre integración laboral y preguntas cualitativas sobre experiencias comunitarias."),
+             
+             br(),
+             h4("Actividad grupal domiciliaria entregable: Participación ciudadana"),
+             p("Compare ventajas y limitaciones del enfoque cuantitativo y cualitativo para estudiar participación en organizaciones barriales."),
              br(),
              
              tags$hr(),
@@ -2153,67 +2152,66 @@ claritaServer <- function(id, seccion_reactiva) {
     )
     
     ejemplos <- list(
-      "variable" = "Ejemplo: el tiempo de espera en un juzgado es una variable si se mide en días, semanas o meses.",
-      "variable independiente" = "Ejemplo: el nivel de ingreso puede ser una variable independiente si se estudia su efecto sobre el acceso a la justicia.",
-      "variable dependiente" = "Ejemplo: el acceso a la justicia sería la variable dependiente si se analiza cómo varía según el ingreso.",
-      "variable contextual" = "Ejemplo: el lugar de residencia puede ser una variable contextual que influye indirectamente.",
-      "indicador" = "Ejemplo: porcentaje de mujeres juezas en tribunales superiores.",
-      "índice" = "Ejemplo: un índice de vulnerabilidad jurídica que combine indicadores de acceso, demora y satisfacción.",
-      "unidad de análisis" = "Ejemplo: las sentencias judiciales emitidas por tribunales de familia.",
-      "unidad de observación" = "Ejemplo: cada expediente judicial revisado.",
-      "entrevista" = "Ejemplo: entrevista semiestructurada a jueces sobre percepción de eficacia procesal.",
-      "grupo focal" = "Ejemplo: discusión grupal con operadores jurídicos sobre barreras de acceso.",
-      "observación participante" = "Ejemplo: el investigador asiste a audiencias como parte del equipo técnico.",
-      "hipótesis" = "Ejemplo: A mayor capacitación judicial, mayor eficacia en la resolución de casos de violencia doméstica.",
-      "cuestionario" = "Ejemplo: cuestionario estructurado con preguntas cerradas sobre percepción de acceso a la justicia.",
-      "censo" = "Ejemplo: relevamiento de todos los expedientes judiciales de violencia doméstica en Montevideo.",
-      "encuesta" = "Ejemplo: encuesta a operadores jurídicos sobre obstáculos en el proceso judicial.",
-      "método cualitativo" = "Ejemplo: entrevistas en profundidad a jueces sobre interpretación de normas.",
-      "método cuantitativo" = "Ejemplo: análisis estadístico de duración promedio de juicios por tipo de delito.",
-      "universo" = "Ejemplo: todos los jueces de Uruguay en actividad durante el año 2024.",
-      "población" = "Ejemplo: jueces de familia en Montevideo.",
-      "ciencia" = "Ejemplo: el estudio sistemático de las causas del acceso desigual a la justicia es una investigación científica.",
-      "método" = "Ejemplo: aplicar encuestas y entrevistas para estudiar la percepción judicial es parte del método científico.",
-      "epistemología" = "Ejemplo: reflexionar sobre si los datos judiciales reflejan la realidad o construyen una visión parcial es un análisis epistemológico.",
-      "metodología" = "Ejemplo: decidir si se usarán entrevistas semiestructuradas o análisis estadístico forma parte de la metodología.",
-      "proceso de investigación" = "Ejemplo: comenzar con una pregunta sobre demoras judiciales, revisar bibliografía y diseñar un estudio es parte del proceso de investigación.",
-      "proyecto de investigación" = "Ejemplo: un proyecto que busca analizar el impacto de la Ley 19.580 incluye problema, objetivos, marco teórico y métodos.",
-      "tema" = "Ejemplo: 'La violencia doméstica en Uruguay' es un tema que puede abordarse desde distintas perspectivas jurídicas.",
-      "problema" = "Ejemplo: ¿Qué obstáculos enfrentan las mujeres de bajos ingresos para acceder a la justicia en casos de violencia doméstica?",
-      "marco teórico" = "Ejemplo: utilizar la teoría de los derechos humanos y el enfoque de género para analizar el acceso a la justicia.",
-      "marco conceptual" = "Ejemplo: definir conceptos como 'violencia doméstica', 'acceso a la justicia' y 'revictimización' para precisar su uso en el estudio.",
-      "antecedentes" = "Ejemplo: revisar investigaciones previas sobre la aplicación de la Ley 19.580 en distintos departamentos del país.",
-      "objetivo" = "Ejemplo: comprender el impacto de la Ley 19.580 en el acceso a la justicia.",
-      "objetivo general" = "Ejemplo: analizar el impacto de la Ley 19.580 en el acceso a la justicia.",
-      "objetivo específico" = "Ejemplo: describir las barreras que enfrentan las mujeres en el proceso judicial en Montevideo.",
-      "diseño de investigación" = "Ejemplo: investigación cualitativa con entrevistas semiestructuradas a juezas y revisión documental de expedientes judiciales entre 2020 y 2024.",
-      "muestra" = "Ejemplo: 300 expedientes seleccionados aleatoriamente de un total de 2000 causas de violencia doméstica.",
-      "conocimiento" = "Ejemplo: saber que los juicios por alimentos suelen demorar más que los de divorcio.",
-      "conocimiento cotidiano" = "Ejemplo: creer que los juzgados están más llenos los lunes por experiencia personal.",
-      "conocimiento científico" = "Ejemplo: demostrar con datos que los juzgados de familia tienen mayor carga procesal en ciertos meses.",
-      "paradigma" = "Ejemplo: el paradigma positivista prioriza la medición objetiva y el uso de estadísticas.",
-      "parsimonia" = "Ejemplo: explicar la demora judicial por falta de personal antes que por múltiples factores complejos.",
-      "teoría" = "Ejemplo: la teoría del conflicto social explica cómo surgen tensiones entre grupos por desigualdad.",
-      "vigilancia epistemológica" = "Ejemplo: revisar si nuestras creencias sobre el sistema judicial están influyendo en la interpretación de los datos.",
-      "ruptura epistemológica" = "Ejemplo: dejar de pensar que 'las mujeres no denuncian porque no quieren' y analizar las barreras estructurales.",
-      "concepto" = "Ejemplo: 'acceso a la justicia' es un concepto que incluye varios elementos como gratuidad, celeridad y equidad.",
-      "dimensión" = "Ejemplo: del concepto 'violencia doméstica', una dimensión puede ser la violencia psicológica.",
-      "supuesto ontológico" = "Ejemplo: asumir que la violencia institucional existe como fenómeno social y puede ser investigada.",
-      "supuesto gnoseológico" = "Ejemplo: creer que la experiencia de las víctimas puede ser conocida a través de entrevistas cualitativas.",
-      "operacionalización de concepto" = "Ejemplo: traducir el concepto 'acceso a la justicia' en indicadores como tiempo de resolución, gratuidad y trato recibido.",
-      "falacia ecológica" = "Ejemplo: afirmar que todos los habitantes de un barrio son pobres porque el promedio de ingresos es bajo.",
-      "positivismo" = "Ejemplo: estudiar la relación entre nivel educativo y denuncias judiciales mediante análisis estadístico.",
-      "neopositivismo" = "Ejemplo: construir definiciones precisas y verificables para conceptos como 'conflicto social' o 'desigualdad'.",
-      "postpositivismo" = "Ejemplo: reconocer que los datos judiciales pueden estar influenciados por sesgos institucionales.",
-      "interpretativismo" = "Ejemplo: analizar cómo las mujeres interpretan su experiencia en el sistema judicial a través de entrevistas.",
-      "fuentes secundarias" = "Ejemplo: usar estadísticas del Poder Judicial sobre cantidad de denuncias por departamento.",
-      "fuentes primarias" = "Ejemplo: realizar entrevistas a juezas y fiscales sobre la aplicación de la Ley 19.580.",
-      "modo normativo" = "Ejemplo: analizar los artículos de la Ley 19.580 sobre medidas cautelares y su aplicación por los jueces.",
-      "modo sociológico" = "Ejemplo: estudiar cómo las mujeres acceden (o no) a la justicia en casos de violencia doméstica, más allá de lo que dice la ley.",
-      "modo histórico" = "Ejemplo: reconstruir la evolución del concepto de patria potestad desde el Código Civil de 1868 hasta hoy.",
-      "modo filosófico" = "Ejemplo: reflexionar sobre el concepto de justicia desde el pensamiento de Rawls o Dworkin.",
-      "modo crítico" = "Ejemplo: analizar cómo el sistema judicial reproduce desigualdades de género y clase en el tratamiento de los casos."
-      
+      "variable" = "Ejemplo: la participación en organizaciones comunitarias es una variable si se mide como alta, media o baja.",
+      "variable independiente" = "Ejemplo: el nivel educativo puede ser una variable independiente si se estudia su efecto sobre la participación política.",
+      "variable dependiente" = "Ejemplo: la participación política sería la variable dependiente si se analiza cómo varía según el nivel educativo.",
+      "variable contextual" = "Ejemplo: el contexto urbano o rural puede ser una variable contextual que influye indirectamente en la participación social.",
+      "indicador" = "Ejemplo: porcentaje de mujeres que participan en asociaciones vecinales.",
+      "índice" = "Ejemplo: un índice de bienestar social que combine indicadores de salud, educación y empleo.",
+      "unidad de análisis" = "Ejemplo: los hogares encabezados por mujeres.",
+      "unidad de observación" = "Ejemplo: cada hogar encabezado por una mujer.",
+      "entrevista" = "Ejemplo: entrevista semiestructurada a jóvenes sobre expectativas laborales.",
+      "grupo focal" = "Ejemplo: discusión grupal con estudiantes universitarios sobre experiencias de discriminación.",
+      "observación participante" = "Ejemplo: el investigador participa en actividades comunitarias para observar dinámicas de cooperación.",
+      "hipótesis" = "Ejemplo: A mayor nivel educativo, mayor participación en organizaciones sociales.",
+      "cuestionario" = "Ejemplo: cuestionario estructurado con preguntas cerradas sobre percepción de desigualdad de género.",
+      "censo" = "Ejemplo: relevamiento de todos los hogares de un barrio para conocer condiciones de vivienda.",
+      "encuesta" = "Ejemplo: encuesta a trabajadores sobre satisfacción laboral.",
+      "método cualitativo" = "Ejemplo: entrevistas en profundidad a mujeres sobre experiencias de violencia simbólica.",
+      "método cuantitativo" = "Ejemplo: análisis estadístico de tasas de desempleo por grupo etario.",
+      "universo" = "Ejemplo: todos los estudiantes universitarios de Uruguay en 2024.",
+      "población" = "Ejemplo: estudiantes de sociología en Montevideo.",
+      "ciencia" = "Ejemplo: el estudio sistemático de las causas de la desigualdad social es una investigación científica.",
+      "método" = "Ejemplo: aplicar encuestas y entrevistas para estudiar la percepción de desigualdad es parte del método científico.",
+      "epistemología" = "Ejemplo: reflexionar sobre si los datos de encuestas reflejan la realidad o construyen una visión parcial es un análisis epistemológico.",
+      "metodología" = "Ejemplo: decidir si se usarán grupos focales o análisis estadístico forma parte de la metodología.",
+      "proceso de investigación" = "Ejemplo: comenzar con una pregunta sobre desigualdad educativa, revisar bibliografía y diseñar un estudio es parte del proceso de investigación.",
+      "proyecto de investigación" = "Ejemplo: un proyecto que busca analizar el impacto de las políticas sociales incluye problema, objetivos, marco teórico y métodos.",
+      "tema" = "Ejemplo: 'La desigualdad educativa en Uruguay' es un tema que puede abordarse desde distintas perspectivas sociales.",
+      "problema" = "Ejemplo: ¿Qué obstáculos enfrentan los jóvenes de bajos ingresos para acceder a la educación superior?",
+      "marco teórico" = "Ejemplo: utilizar la teoría del capital cultural de Bourdieu para analizar desigualdades educativas.",
+      "marco conceptual" = "Ejemplo: definir conceptos como 'capital social', 'participación comunitaria' y 'desigualdad' para precisar su uso en el estudio.",
+      "antecedentes" = "Ejemplo: revisar investigaciones previas sobre participación política juvenil en América Latina.",
+      "objetivo" = "Ejemplo: comprender el impacto del nivel educativo en la participación política.",
+      "objetivo general" = "Ejemplo: analizar la relación entre educación y participación política.",
+      "objetivo específico" = "Ejemplo: describir las diferencias en participación política según género y nivel educativo.",
+      "diseño de investigación" = "Ejemplo: investigación cualitativa con entrevistas semiestructuradas a jóvenes y análisis de encuestas nacionales.",
+      "muestra" = "Ejemplo: 300 estudiantes seleccionados aleatoriamente de un total de 2000 matriculados.",
+      "conocimiento" = "Ejemplo: saber que los jóvenes participan más en redes sociales que en partidos políticos.",
+      "conocimiento cotidiano" = "Ejemplo: creer que los barrios periféricos tienen menos actividades culturales por experiencia personal.",
+      "conocimiento científico" = "Ejemplo: demostrar con datos que los barrios periféricos tienen menor acceso a actividades culturales.",
+      "paradigma" = "Ejemplo: el paradigma interpretativo prioriza comprender significados y experiencias subjetivas.",
+      "parsimonia" = "Ejemplo: explicar la baja participación política por falta de interés antes que por múltiples factores complejos.",
+      "teoría" = "Ejemplo: la teoría del capital social explica cómo las redes comunitarias fortalecen la cooperación.",
+      "vigilancia epistemológica" = "Ejemplo: revisar si nuestras creencias sobre los jóvenes influyen en la interpretación de los datos.",
+      "ruptura epistemológica" = "Ejemplo: dejar de pensar que 'los pobres no estudian porque no quieren' y analizar las barreras estructurales.",
+      "concepto" = "Ejemplo: 'participación social' es un concepto que incluye actividades comunitarias, políticas y culturales.",
+      "dimensión" = "Ejemplo: del concepto 'desigualdad social', una dimensión puede ser la desigualdad económica.",
+      "supuesto ontológico" = "Ejemplo: asumir que la desigualdad social existe como fenómeno y puede ser investigada.",
+      "supuesto gnoseológico" = "Ejemplo: creer que la experiencia de los jóvenes puede ser conocida a través de entrevistas cualitativas.",
+      "operacionalización de concepto" = "Ejemplo: traducir el concepto 'participación social' en indicadores como asistencia a reuniones, votación y voluntariado.",
+      "falacia ecológica" = "Ejemplo: afirmar que todos los jóvenes de un barrio son apáticos porque el promedio de participación es bajo.",
+      "positivismo" = "Ejemplo: estudiar la relación entre nivel educativo y participación política mediante análisis estadístico.",
+      "neopositivismo" = "Ejemplo: construir definiciones precisas y verificables para conceptos como 'capital social' o 'desigualdad'.",
+      "postpositivismo" = "Ejemplo: reconocer que los datos de encuestas pueden estar influenciados por sesgos de respuesta.",
+      "interpretativismo" = "Ejemplo: analizar cómo los jóvenes interpretan su experiencia educativa a través de entrevistas.",
+      "fuentes secundarias" = "Ejemplo: usar estadísticas del INE sobre empleo juvenil.",
+      "fuentes primarias" = "Ejemplo: realizar entrevistas a estudiantes sobre expectativas laborales.",
+      "modo normativo" = "Ejemplo: analizar políticas públicas sobre acceso a la educación superior.",
+      "modo sociológico" = "Ejemplo: estudiar cómo los jóvenes acceden (o no) a la educación superior, más allá de lo que dicen las políticas.",
+      "modo histórico" = "Ejemplo: reconstruir la evolución de la participación estudiantil desde la década de 1960 hasta hoy.",
+      "modo filosófico" = "Ejemplo: reflexionar sobre el concepto de igualdad desde el pensamiento de Bourdieu o Sen.",
+      "modo crítico" = "Ejemplo: analizar cómo el sistema educativo reproduce desigualdades de género y clase."
     )
     funciones <- list(
       "hipótesis" = "Orientar la recolección y el análisis de datos, permitiendo confirmar o refutar relaciones.",
@@ -2385,8 +2383,8 @@ server <- function(input, output, session) {
   observeEvent(input$sol5, { output$resp5 <- renderText("Respuesta sugerida: Obj. general: Analizar la aplicación de la Ley 19.580. Obj. específicos: 1) Examinar sentencias, 2) Entrevistar a operadores.") })
   observeEvent(input$sol6, { output$resp6 <- renderText("Respuesta sugerida: Hipótesis: A mayor capacitación judicial, ........") })
   observeEvent(input$sol7, { output$resp7 <- renderText("Respuesta sugerida: Indicadores: % mujeres juezas, % mujeres en tribunales superiores, tiempos de ascenso por género.") })
-  observeEvent(input$sol8, { output$resp8 <- renderText("Respuesta sugerida: Población: jueces de Uruguay. Muestra: jueces de Montevideo seleccionados aleatoriamente.") })
-  observeEvent(input$sol9, { output$resp9 <- renderText("Respuesta sugerida: Método mixto: estadísticas sobre duración de juicios + entrevistas a jueces y abogados.") })
+  observeEvent(input$sol8, { output$resp8 <- renderText("Respuesta sugerida: Población: estudiantes universitarios. Muestra: estudiantes del CENUR LN seleccionados aleatoriamente.") })
+  observeEvent(input$sol9, { output$resp9 <- renderText("Respuesta sugerida: Método mixto: estadísticas sobre ingresos + entrevistas jefe/a de hogar.") })
   observeEvent(input$sol10, { output$resp10 <- renderText("Respuesta sugerida: Entrevista con preguntas sobre barreras tecnológicas, percepción de eficacia, propuestas de mejora.") })
 }
 
