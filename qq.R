@@ -165,7 +165,7 @@ h1, h2, h3, h4 {
                  br(),
                  br(),
                  # --- Apps embebidas ---
-                 # tags$hr(),
+                  # tags$hr(),
                  # h3("📚 TALLER Y RECURSOS COMPLEMENTARIOS"),
                  # br(),
                  # br(),
@@ -196,13 +196,13 @@ h1, h2, h3, h4 {
                  # ),
                  # br(),
                  # br(),
-                 # h4("📉 4. Hipótesis - Herramienta interactiva"),
-                 # tags$iframe(
-                 #   src = "https://joseclasederecho.shinyapps.io/hipotesis/",
-                 #   width = "100%",
-                 #   height = "500px",
-                 #   style = "border:none; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"
-                 # ),
+                  # h4("📉 4. Hipótesis - Herramienta interactiva"),
+                  # tags$iframe(
+                  #   src = "https://joseclasederecho.shinyapps.io/hipotesis/",
+                  #   width = "100%",
+                  #   height = "500px",
+                  #   style = "border:none; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"
+                  # ),
                  # br(), br(),
                  # 
                  # tags$hr(),
@@ -224,12 +224,12 @@ h1, h2, h3, h4 {
                  #     tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
                  #            target = "_blank", 
                  #            "4. Hipotesis - Herramienta interactiva")))
-               ))
+                 ))
              
              
              
              
-    ),
+                 ),
     # --- FIN PIZARRA COLABORATIVA ---
     # --------------------------
     # CAPÍTULO I
