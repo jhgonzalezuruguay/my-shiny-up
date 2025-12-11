@@ -211,19 +211,25 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
                             target = "_blank", 
-                            "1. Investigaciones - Herramienta interactiva")),
+                            "1. Taller Investigaciones - Herramienta interactiva")),
+                   tags$li(
+                     tags$a(href = "https://hipocs.onrender.com/", 
+                            target = "_blank", 
+                            "2. Taller Investigaciones 2 - Herramienta interactiva")),           
+                   
+                   tags$li(
+                     tags$a(href = "https://hipocs.onrender.com/", 
+                            target = "_blank", 
+                            "3. Hipotesis - Herramienta interactiva")),
+                   
+                   
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
                             target = "_blank", 
-                            "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-                   tags$li(
-                     tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                            target = "_blank", 
-                            "3. Metodología - Herramienta interactiva")),
-                   tags$li(
-                     tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                            target = "_blank", 
-                            "4. Hipotesis - Herramienta interactiva")))))
+                            "4. Taller Indicadores - Herramienta interactiva"))
+
+                   
+                   )))
              
              
              
