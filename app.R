@@ -213,7 +213,7 @@ h1, h2, h3, h4 {
                             target = "_blank", 
                             "1. Taller Investigaciones - Herramienta interactiva")),
                    tags$li(
-                     tags$a(href = "https://hipocs.onrender.com/", 
+                     tags$a(href = "https://shiny-app-rsks.onrender.com/", 
                             target = "_blank", 
                             "2. Taller Investigaciones 2 - Herramienta interactiva")),           
                    
