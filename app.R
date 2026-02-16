@@ -361,31 +361,7 @@ datos."),
              actionButton("sol2", "Ver respuesta sugerida"),
              textOutput("resp2"),
              br(),
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             
-             
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva"),
-                 tags$li(
-                   tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                          target = "_blank", 
-                          "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-                 tags$li(
-                   tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                          target = "_blank", 
-                          "3. Metodología - Herramienta interactiva")),
-               ),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
-             
+          
     ),
     
     
@@ -521,30 +497,7 @@ datos."),
              
              br(),
              
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
-    ),
+             ),
     
     # --------------------------
     # CAPÍTULO IV
@@ -625,30 +578,7 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
              p("Construye un marco teórico para el tema elegido."),
              br(),
              
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
+
     ),
     
     # --------------------------
@@ -797,29 +727,8 @@ exploratorios, descriptivos, explicativos, etcétera (Batthyány et al., 2011)."
              br(),
              h4("Actividad grupal domiciliaria entregable"),
              p("Formula un diseño de investigación con objetivo general y específicos sobre Desigualdad educativa, Género y trabajo, Participación comunitaria, Migración, Políticas sociales u otro tema de tu interés."),
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
+             br(),
+
     ),
     
     # --------------------------
@@ -1010,30 +919,8 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
              br(),
              h4("Actividad grupal domiciliaria entregable: Participación comunitaria"),
              p("Elabore una hipótesis causal sobre la baja participación juvenil en organizaciones barriales y la falta de políticas públicas de incentivo."),
-             
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
-    ),
+             br(),
+             ),
     
     # --------------------------
     # CAPÍTULO VI
@@ -1236,29 +1123,7 @@ organización de actividades, uso de redes sociales)."),
              br(),
              
              
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
+             
     ),
     
     # --------------------------
@@ -1383,29 +1248,8 @@ organización de actividades, uso de redes sociales)."),
              
              br(),
              tags$hr(),
+             br(),
              
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
     ),
     
     # --------------------------
@@ -1708,29 +1552,7 @@ investigación.")
              p("Analice cómo distintos métodos permiten estudiar la relación entre participación comunitaria y confianza en instituciones democráticas."),
              
              br(),
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
+  
     ),
     
     # --------------------------
@@ -2047,29 +1869,7 @@ acciones y comprender, mediante un proceso de identificación, sus motivaciones
              p("Compare ventajas y limitaciones del enfoque cuantitativo y cualitativo para estudiar participación en organizaciones barriales."),
              br(),
              
-             tags$hr(),
-             h4("Recursos complementarios:"),
-             tags$ul(
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                        target = "_blank", 
-                        "1. Investigaciones - Herramienta interactiva")
-               ),
-               
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
-                        target = "_blank", 
-                        "2. Asuntos judiciales iniciados en 2024 - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/metodologia/", 
-                        target = "_blank", 
-                        "3. Metodología - Herramienta interactiva")),
-               tags$li(
-                 tags$a(href = "https://joseclasederecho.shinyapps.io/hipotesis/", 
-                        target = "_blank", 
-                        "4. Hipotesis - Herramienta interactiva")
-               )
-             )
+             
     )
   )
 )
