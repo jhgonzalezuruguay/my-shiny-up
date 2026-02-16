@@ -206,27 +206,29 @@ h1, h2, h3, h4 {
                  br(), br(),
                  
                  tags$hr(),
-                 h4("Links apps externas:"),
+                 h4("Recursos complementarios:"),
                  tags$ul(
-                   tags$li(
-                     tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
-                            target = "_blank", 
-                            "1. Taller Investigaciones - Herramienta interactiva")),
+                   
                    tags$li(
                      tags$a(href = "https://shiny-app-rsks.onrender.com/", 
                             target = "_blank", 
-                            "2. Taller Investigaciones 2 - Herramienta interactiva")),           
+                            "1. Taller Investigaciones - Herramienta interactiva")),           
                    
                    tags$li(
                      tags$a(href = "https://hipocs.onrender.com/", 
                             target = "_blank", 
-                            "3. Hipotesis - Herramienta interactiva")),
+                            "2. Hipotesis - Herramienta interactiva")),
                    
                    
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
                             target = "_blank", 
-                            "4. Taller Indicadores - Herramienta interactiva"))
+                            "3. Taller Indicadores - Herramienta interactiva")),
+                   
+                   tags$li(
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
+                            target = "_blank", 
+                            "4. Taller Investigaciones  - Herramienta interactiva"))
 
                    
                    )))
