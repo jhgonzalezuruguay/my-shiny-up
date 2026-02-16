@@ -363,12 +363,19 @@ datos."),
              actionButton("sol2", "Ver respuesta sugerida"),
              textOutput("resp2"),
              br(),
-          
+          tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-epi-met-1.onrender.com/", 
+                        target = "_blank", 
+                        "1. Taller")
+               ),
+                            
+               
+             )
     ),
-    
-    
-    
-    
+
     # --------------------------
     # CAPÍTULO II
     # --------------------------
