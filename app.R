@@ -235,7 +235,7 @@ h1, h2, h3, h4 {
              
              
     ),
-    # --- FIN PIZARRA COLABORATIVA ---
+    # --- FIN PIZARRA COLABORATIVA ---nnnnnnnnn
     # --------------------------
     # CAPÍTULO I
     # --------------------------
@@ -251,26 +251,26 @@ razonamiento, sistemáticamente estructurados y de los que se deducen principios
                tags$li("Método: Procedimiento que se sigue en las ciencias para hallar la verdad y 
 enseñarla. 'El «método científico» es utilizado en el proceso de la investigación social para 
 obtener nuevos conocimientos en el campo de la realidad social, o bien estudiar una 
-situación para diagnosticar necesidades y problemas a efectos de aplicar los conocimientos con fines prácticos' (Batthyany et ali)."),
+situación para diagnosticar necesidades y problemas a efectos de aplicar los conocimientos con fines prácticos' (Batthyány et al., 2011)."),
                br(),
                tags$li("Epistemología: estudio del conocimiento y su validez. 'La epistemología se define como el análisis del conocimiento científico. En términos más específicos, esta disciplina analiza los supuestos 
 filosóficos de las ciencias, su objeto de estudio, los valores implicados en la creación 
 del conocimiento, la estructura lógica de sus teorías, los métodos empleados en la 
-investigación y en la explicación o interpretación de sus resultados' (Batthyany et ali)."),
+investigación y en la explicación o interpretación de sus resultados' (Batthyány et al., 2011)."),
                br(),
                tags$li("Metodología: estrategias y procedimientos para producir conocimiento. 'La metodología está conformada por procedimientos o métodos para la construcción de la evidencia empírica. Se apoya en los paradigmas, y su función en 
 la investigación es discutir los fundamentos epistemológicos del conocimiento. 
 Específicamente, reflexiona acerca de los métodos que son utilizados para generar 
-conocimiento científico y las implicancias de usar determinados procedimientos (Batthyany et ali)'. "),
+conocimiento científico y las implicancias de usar determinados procedimientos (Batthyány et al., 2011)'. "),
                br(),
                tags$li("Proceso de investigación: La investigación social es un proceso de generación de conocimiento, una actividad que nos permite obtener conocimientos científicos. Se inicia con las primeras 
 preguntas que nos hacemos, la búsqueda bibliográfica, el análisis de los marcos 
 teóricos y los conceptos, hasta llegar a la formulación del problema de investigación 
-y el diseño necesario para indagar ese problema (Batthyany et ali)."),
+y el diseño necesario para indagar ese problema (Batthyány et al., 2011)."),
                br(),
                tags$li("Proyecto de investigación: La investigación social implica la formulación de un proyecto en el cual se explicitan todos los elementos involucrados en el proceso de investigación, desde la 
 formulación del problema a investigar hasta los caminos que recorrerá para estudiar 
-ese problema empíricamente (Batthyany et ali)."),
+ese problema empíricamente (Batthyány et al., 2011)."),
                br(),
                tags$li("La articulación asegura consistencia entre lo que se investiga y cómo se investiga."),
                br(),
@@ -284,14 +284,14 @@ ese problema empíricamente (Batthyany et ali)."),
 organizado de concebir el mundo y de dotarlo de características que resultan en 
 primera instancia de la experiencia personal del sujeto que conoce. El conocimiento 
 que una persona adquiere de la realidad diferirá en función de cómo aborde dicha 
-realidad (Batthyany et ali)'."),
+realidad (Batthyány et al., 2011)'."),
              br(),
              tags$li("'Es posible distinguir al menos dos tipos de conocimiento: el cotidiano, espontáneo o vulgar, y el científico. El primero de ellos se adquiere sin ningún proceso 
 planificado y sin la utilización de medios especialmente diseñados. Por su parte, 
 el conocimiento científico exige mayor rigor para encontrar regularidades en los 
 fenómenos, para describirlos, comprenderlos, explicarlos y/o predecirlos. Se obtiene mediante procedimientos metódicos con pretensión de validez, utilizando la 
 reflexión, los razonamientos lógicos y respondiendo a una búsqueda intencionada, 
-para lo cual se delimitan los objetos y se prevén los modelos de investigación (Batthyany et ali)'."),
+para lo cual se delimitan los objetos y se prevén los modelos de investigación (Batthyány et al., 2011)'."),
              br(),
              h4("Comparación entre conocimiento cotidiano y conocimiento científico:"),
              # Tabla jurídica
@@ -467,7 +467,7 @@ datos."),
              p("Responder:  ¿Con qué información puedo responderlo?"),
              
              br(),
-             h4("Actividad domiciliaria grupal o individual entregable"),
+             h4("Actividad grupal y/o individual entregable"),
              p("Tema 1: Desigualdad educativa"),
              p("Ejercicio:  formular 2 problemas de investigación abordables desde las ciencias sociales."),
              p("Pistas:"),
@@ -572,7 +572,7 @@ de la investigación, orienta la metodología inndicando variables a observar y 
 del marco y los supuestos teóricos que sostienen la utilización de modelos estadísticos o una estrategia cualitativa de análisis (Sautu, 2005: 42)."),
                br(),
                tags$li("Conceptos: Los conceptos provienen y forman parte de la teoría por lo tanto son abstracciones. En el marco de la elaboración de un proyecto de investigación hay una apropiación de determinados conceptos a partir de los cuales se construye el objeto de 
-investigación (Batthyany et ali). Los conceptos son representaciones abstractas de una realidad observable, son 
+investigación (Batthyány et al., 2011). Los conceptos son representaciones abstractas de una realidad observable, son 
 instrumentos para expresar una representación mental de la realidad (op. cit.)")
              ),
              tags$li("Diferencias entre Marco Teòrico, Marco Conceptual y Antecedentes (ver siguiente tabla)"),
@@ -614,7 +614,7 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
              textOutput("feedback4"),
              br(),br(),
              h4("Actividad práctica"),
-             p("Caso: Estudias la Ley de Medio Ambiente. Identifica tres conceptos clave."),
+             p("Caso: Estudias sobre el Medio Ambiente. Identifica tres conceptos clave."),
              actionButton("sol4", "Ver respuesta sugerida"),
              textOutput("resp4"),
              br(),
@@ -661,7 +661,7 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
              tags$ul(
                tags$li("Los objetivos constituyen la guía del proceso de investigación. Permiten definir el rumbo
  del estudio, orientar las decisiones metodológicas y evaluar los resultados obtenidos. En
- Ciencias Sociales —y específicamente en Derecho—, los objetivos se relacionan con la
+ Ciencias Sociales, los objetivos se relacionan con la
  formulación del problema y con el diseño de investigación."),
                tags$li("Objetivo general: propósito amplio."),
                tags$li("Objetivos específicos: pasos concretos."),
@@ -755,15 +755,14 @@ observación. - Si el objetivo es explicar causas de baja participación, se req
 explicativo con entrevistas en profundidad y análisis documental."),
                br(),
                tags$li("La definición de objetivos transforma el problema en un plan de acción. Un buen objetivo
- es claro, preciso y viable. En Derecho, los objetivos deben vincular teoría, normativa y
- práctica judicial. Su correcta formulación asegura que la investigación tenga coherencia
+ es claro, preciso y viable. Su correcta formulación asegura que la investigación tenga coherencia
  metodológica y relevancia social."),
                br(),
                h4("Diseño"),
                br(),
                tags$ul(
                  tags$li("Diseño: El diseño de la investigación es el plan y la estructura de esta, concebidos de 
-manera tal que se puedan obtener respuestas a las preguntas de investigación. Es el plan que guía la contrastación empírica de las hipótesis (Batthyany et ali)."),
+manera tal que se puedan obtener respuestas a las preguntas de investigación. Es el plan que guía la contrastación empírica de las hipótesis (Batthyány et al., 2011)."),
                  br(),
                  h4("Tipos de diseño"),
                  br(),
@@ -771,7 +770,7 @@ manera tal que se puedan obtener respuestas a las preguntas de investigación. E
 descriptivo, explicativo, predictivo y evaluativo. De acuerdo al tipo de estudio de 
 que se trate variará la estrategia de investigación. El diseño, los datos que se recolectan, la manera de obtenerlos, el muestreo y otros componentes del proceso 
 de investigación son distintos en función del tipo de objetivos de la investigación: 
-exploratorios, descriptivos, explicativos, etcétera (Batthyany et ali)."),
+exploratorios, descriptivos, explicativos, etcétera (Batthyány et al., 2011)."),
                  br(),
                  tags$li("En Ciencias Sociales: definir si se estudiará teoría, prácticas sociales o impacto comunitario.")
                )),
@@ -787,7 +786,7 @@ exploratorios, descriptivos, explicativos, etcétera (Batthyany et ali)."),
              textOutput("feedback5"),
              br(),
              h4("Actividad práctica"),
-             p("Formula un objetivo general y dos específicos sobre la Ley 19.580."),
+             p("Formula un objetivo general y dos específicos sobre violencia domestica ."),
              p("Identifica cada objetivo de acuerdo a su tipo"),
              actionButton("sol5", "Ver respuesta sugerida"),
              textOutput("resp5"),
@@ -832,7 +831,7 @@ exploratorios, descriptivos, explicativos, etcétera (Batthyany et ali)."),
              tags$li("Una vez formulado el problema de investigación a partir del marco teórico y 
 del grado de conocimiento del fenómeno de estudio, se plantea una respuesta anticipada y tentativa a la pregunta de investigación. Estas posibles respuestas son las 
 hipótesis. Actualmente es indiscutible la utilidad que tiene el planteamiento de una 
-o varias hipótesis durante el proceso de generación de conocimiento científico (Batthyany et ali)."),
+o varias hipótesis durante el proceso de generación de conocimiento científico (Batthyány et al., 2011)."),
              tags$li("Son enunciados teóricos supuestos, no verificados pero probables, referentes a variables o 
 relaciones entre variables (Sierra Bravo, 1987: 49 y 69)."),
              tags$li("Las hipótesis representan predicciones o respuestas probables a los interrogantes que 
@@ -845,9 +844,9 @@ pone por debajo o se supone (Sierra Bravo, 1987: 69)."),
              h4("Respuesta tentativa a la pregunta de investigación"),
              br(),
              tags$li("Las hipótesis se desprenden del marco teórico que le da sustento a la investigación y hasta tanto no sean sometidas a prueba (contrastación empírica) no se validarán ni rechazarán. Por ello, debe existir una estrecha relación entre el marco teórico, 
-el problema de investigación y las hipótesis (Batthyany et ali)."),
+el problema de investigación y las hipótesis (Batthyány et al., 2011)."),
              tags$li("En tanto es una respuesta tentativa, la hipótesis tiene un carácter de provisionalidad, de conjetura verosímil, de suposición. Siguiendo a Corbetta (2007:72) la hipótesis es «una afirmación provisoria que se debe comprobar, derivada de la teoría, 
-pero que precisa su comprobación empírica para poder confirmarse» (Batthyany et ali)."),
+pero que precisa su comprobación empírica para poder confirmarse» (Batthyány et al., 2011)."),
              br(),
              h4("Establecen una relación entre conceptos"),
              br(),
@@ -856,38 +855,37 @@ la hipótesis es la que se someterá a prueba con los datos.
  Es importante tener en cuenta que el centro de la investigación es la hipótesis y 
 no los datos. Las hipótesis van más allá de los datos y guían la construcción de los 
 mismos; en tal sentido muchas veces se mantiene la imagen de las hipótesis como 
-brújula que guía la generación de conocimiento científico (Batthyany et ali)."),
+brújula que guía la generación de conocimiento científico (Batthyány et al., 2011)."),
              br(),
              h4("Son oraciones o enunciados declarativos"),
              tags$li("La manera en la que se redacta o se escribe una hipótesis es la de una proposición simple. No son oraciones imperativas ni interrogativas ni exclamativas. Es una 
-afirmación que puede ser verdadera o falsa (Batthyany et ali). "),
+afirmación que puede ser verdadera o falsa (Batthyány et al., 2011). "),
              br(),
              h4("Características de una hipótesis"),
              br(),
              tags$li("Plausible: debe tener una estrecha relación con el fenómeno que se quiere 
 estudiar y estar relacionada con el cuerpo teórico que la sustenta. En este caso, 
 también se habla de la pertinencia de la hipótesis respecto al fenómeno a estudiar. 
-Un claro planteamiento del problema de investigación y una revisión teórica adecuada, son condiciones fundamentales para la elaboración de hipótesis plausibles (Batthyany et ali)."),
+Un claro planteamiento del problema de investigación y una revisión teórica adecuada, son condiciones fundamentales para la elaboración de hipótesis plausibles (Batthyány et al., 2011)."),
              tags$li("Contrastable: las hipótesis deben ser «contrastables mediante los procedimientos 
 objetivos de la ciencia» (Bunge, 1997). Los términos de la hipótesis y la relación 
 planteada entre ellos deben tener un referente empírico. La hipótesis es una conjetura, una suposición o solución probable que puede ser comprobada o rechazada 
-durante una investigación empírica (Batthyany et ali)."),
+durante una investigación empírica (Batthyány et al., 2011)."),
              tags$li("Refutable: La contrastación implica, además, que las hipótesis tienen que ser 
 refutables por la experiencia, es decir, tiene que ser un enunciado cuya forma lógica 
-permita rechazarlo cuando se lo pone a prueba (Batthyany et ali)."),
-             tags$li("Precisa: Debe formularse en términos claros y concretos evitando la ambigüedad y la confusión. Las hipótesis no deben contener términos imprecisos o generales ni contener términos valorativos o juicios de valor (Batthyany et ali)."),
+permita rechazarlo cuando se lo pone a prueba (Batthyány et al., 2011)."),
+             tags$li("Precisa: Debe formularse en términos claros y concretos evitando la ambigüedad y la confusión. Las hipótesis no deben contener términos imprecisos o generales ni contener términos valorativos o juicios de valor (Batthyány et al., 2011)."),
              tags$li("Comunicable. Debe ser comprendida de una sola y misma manera por todos los 
-investigadores. La claridad con que se formule es fundamental, debido a que constituye una guía para la investigación (Batthyany et ali)."),
+investigadores. La claridad con que se formule es fundamental, debido a que constituye una guía para la investigación (Batthyány et al., 2011)."),
              tags$li("General: El poder de explicación debe superar el caso individual. Las hipótesis 
 no deben referirse a experiencias singulares, en tanto los datos aislados sirven para 
-refutar o verificar hipótesis y no para establecerlas (Batthyany et ali). "),
+refutar o verificar hipótesis y no para establecerlas (Batthyány et al., 2011). "),
              br(),
              h4("Conceptos clave"),
              tags$ul(
                tags$li("Las hipótesis son proposiciones tentativas que establecen relaciones entre variables,
  conceptos o fenómenos. Orientan la investigación, permiten anticipar respuestas y guían
- la recolección y análisis de datos. En Derecho, las hipótesis permiten transformar
- problemas jurídicos en preguntas investigables con base científica."),
+ la recolección y análisis de datos."),
                tags$li("Hipótesis descriptivas, correlacionales, causales, nulas y alternativas."),
                tags$li("Orientan la recolección y análisis de datos."),
                tags$li("En Ciencias Sociales: permiten evaluar impacto de políticas públicas, prácticas sociales y dinámicas comunitarias.")
@@ -1078,7 +1076,7 @@ determinado (Cea D’Ancona, 1996: 126)."),
              br(), br(),
              h4("Operacionalización"),br(),
              tags$li("Proceso por el cual se realiza el pasaje de los conceptos (constructos teóricos) a las variables. La importancia de una correcta operacionalización se expresa por sí misma si las variables no pueden ser 
-observadas y medidas en la realidad (Batthyány et ali).  El proceso de operacionalización consiste en la transformación de conceptos y 
+observadas y medidas en la realidad (Batthyány et al., 2011).  El proceso de operacionalización consiste en la transformación de conceptos y 
 proposiciones teóricas en variables. En el extremo más abstracto de este proceso están los conceptos teóricos, y en el menos, los referentes empíricos directos o 
 indicadores. Por ejemplo, algunas variables son directamente observables, como el sexo o el partido político que votó en las últimas elecciones nacionales. Existen 
 conceptos más abstractos, como el estrato social o la calidad del empleo, que se encuentran más alejadas del plano empírico, por lo cual es necesario realizar un 
@@ -1204,7 +1202,7 @@ proceso de operacionalización que permita identificar variables para representa
                tags$li("Variable: atributo medible."),
                tags$li("Indicador: expresión empírica de la variable."),
                tags$li("Índice: suma de indicadores."),
-               tags$li("En C.S. y Derecho: medir acceso a justicia = Nº defensores públicos/población vulnerable.")
+               tags$li("En C.S.: medir acceso a justicia = Nº defensores públicos/población departamental.")
              ),
              br(),br(),
              h4("Quiz"),
@@ -1271,23 +1269,19 @@ organización de actividades, uso de redes sociales)."),
              h4("Introducción"),br(),
              tags$li("En toda investigación, definir las unidades de análisis y la población es fundamental para garantizar la
  coherencia metodológica. Las unidades de análisis son los elementos concretos sobre los que se centra
- el estudio, mientras que la población refiere al conjunto total de dichas unidades. En Derecho, estas
- decisiones influyen directamente en la validez y aplicabilidad de los resultados.
-"),
+ el estudio, mientras que la población refiere al conjunto total de dichas unidades."),
              br(),
              h4("Las Unidades de Análisis"),br(),
              tags$li("Unidades de análisis: Son los sujetos, casos u objetos concretos que se observan en la investigación.
- Pueden ser personas, instituciones, documentos, normas o decisiones judiciales."),
+ Pueden ser personas, instituciones, documentos, etc."),
              br(),
              tags$li("Ejemplos:"),
              br(),
              tags$ul(
                tags$li("Individuos: jóvenes en situación de desempleo."),
                tags$li("Instituciones: organizaciones comunitarias y centros educativos."),
-               tags$li("Normas: políticas públicas de inclusión social."),
-               tags$li("Documentos: encuestas de hogares y estudios de opinión."),
-               tags$li("Decisiones: programas implementados por ministerios de desarrollo social.")
-             ),
+               tags$li("Documentos: encuestas de hogares y estudios de opinión.")
+               ),
              br(),
              h4("Población y Muestra"),br(),
              tags$li("La población es el conjunto total de unidades de análisis que comparten las características que se
@@ -1424,9 +1418,7 @@ organización de actividades, uso de redes sociales)."),
              br(),
              tags$li("Los métodos en las Ciencias Sociales constituyen los caminos y estrategias utilizados para investigar
  fenómenos sociales. El método elegido condiciona la forma en que se formula el problema, se recogen
- datos y se construyen conclusiones. En el ámbito jurídico, comprender los métodos es esencial para
- producir conocimiento científico que permita analizar, evaluar y transformar la realidad legal y social.
-"),
+ datos y se construyen conclusiones."),
              br(),
              h4("Paradigma"),br(),
              tags$li(" El término paradigma refiere a un ejemplo o modelo y tiene un origen antiguo 
@@ -1751,9 +1743,7 @@ investigación.")
              br(),
              tags$li(" Las técnicas de investigación son los instrumentos específicos que permiten obtener información de la
  realidad. A diferencia de los métodos (estrategias generales), las técnicas son procedimientos concretos
- para recolectar y analizar datos. En Derecho, son esenciales para estudiar fenómenos sociales
- vinculados a normas, instituciones y prácticas judiciales.
-"),
+ para recolectar y analizar datos."),
              br(),
              h4("Fuentes primarias y secundarias de información"),
              br(),
@@ -1815,7 +1805,7 @@ través de las respuestas de los sujetos encuestados."),
 preguntas en el mismo orden a cada uno de los encuestados."),
                tags$li("Las respuestas de los individuos se agrupan y cuantifican para posteriormente ser analizadas a través del uso de herramientas estadísticas."),
                tags$li("Los datos obtenidos son generalizables a la población a la que muestra 
-pertenece (Batthyany et ali).")
+pertenece (Batthyány et al., 2011).")
              ),
              br(),
              h4("Tipos de encuestas"),
@@ -1986,7 +1976,7 @@ que estén representadas aquellas relaciones sociales que son de interés para
 el estudio) Algunos puntos a tener en cuenta al momento del diseño son: el 
 número total de grupos, las variables o atributos que definirán a los participantes de cada uno de ellos, y la dispersión geográfica de los grupos."),
                tags$li("El tamaño del grupo de discusión se sitúa entre los cinco y diez participantes."),
-               tags$li("Debe existir cierta homogeneidad y heterogeneidad a la interna del grupo (Delgado y Gutiérrez, 1999, en Batthyany).")
+               tags$li("Debe existir cierta homogeneidad y heterogeneidad a la interna del grupo (Delgado y Gutiérrez, 1999, en Batthyány et al., 2011).")
              ),
              br(),
              h4("Observación participante"),
