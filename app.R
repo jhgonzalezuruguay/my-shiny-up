@@ -596,8 +596,17 @@ instrumentos para expresar una representación mental de la realidad (op. cit.)"
              h4("Actividad práctica grupal domiciliaria entregable"),
              p("Construye un marco teórico para el tema elegido."),
              br(),
-             
-
+             tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-marco.onrender.com/", 
+                        target = "_blank", 
+                        "3. Taller")
+               ),
+               
+               
+             )
     ),
     
     # --------------------------
