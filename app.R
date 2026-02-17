@@ -505,8 +505,18 @@ datos."),
              p("Ejemplo: ¿Cómo han impactado las políticas públicas en la integración laboral de migrantes en Uruguay entre 2010 y 2020?"),
              
              br(),
-             
-             ),
+             tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-tema-pro.onrender.com/", 
+                        target = "_blank", 
+                        "2. Taller")
+               ),
+               
+               
+             )
+    ),
     
     # --------------------------
     # CAPÍTULO IV
