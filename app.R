@@ -756,8 +756,19 @@ exploratorios, descriptivos, explicativos, etcétera (Batthyány et al., 2011)."
              h4("Actividad grupal domiciliaria entregable"),
              p("Formula un diseño de investigación con objetivo general y específicos sobre Desigualdad educativa, Género y trabajo, Participación comunitaria, Migración, Políticas sociales u otro tema de tu interés."),
              br(),
-
+             tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-obj.onrender.com/", 
+                        target = "_blank", 
+                        "4. Taller")
+               ),
+               
+               
+             )
     ),
+
     
     # --------------------------
     # CAPÍTULO V
