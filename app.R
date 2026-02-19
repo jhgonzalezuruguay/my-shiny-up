@@ -914,12 +914,10 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
                )
              ),
              br(),
-             tags$li("Ejemplo: en un estudio sobre corrupción judicial:"),
-             tags$li("Hipótesis descriptiva: El 60% de los abogados percibe falta de transparencia en la designación de jueces"),
-             tags$li("Hipótesis correlacional: La percepción de independencia judicial está asociada al nivel de
-                     acceso a la información pública"),
-             tags$li("Hipótesis causal: La ausencia de concursos públicos
-                     en la designación de jueces causa una mayor percepción de corrupción"),
+             tags$li("Ejemplo: en un estudio sobre accreso a la justicia:"), 
+             tags$li("Hipótesis descriptiva: La población de menores recursos de Salto percibe tener un menor acceso a la justicia"),
+             tags$li("Hipótesis correlacional: La percepción de acceso a la justicia está asociada a la cantidad de jueces por departamento"),
+             tags$li("Hipótesis causal: La menor cantidad de juzgados y jueces en Salto que en Montevideo causa un menor acceso a la justicia"),
              br(),
              tags$li("Elaboración de hipótesis"),
              tags$li(" Para formular hipótesis se requieren tres pasos principales:"),
@@ -935,7 +933,7 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
              h4("Quiz"),
              radioButtons("q7", "7) Ejemplo de hipótesis válida:",
                           choices = list(
-                            "El acceso a defensa pública mejora garantías procesales" = "a",
+                            "El acceso a defensa pública mejora el acceso a la justicia" = "a",
                             "La justicia es importante" = "b",
                             "Los juicios existen desde hace siglos" = "c"
                           ), selected = character(0)),
@@ -943,7 +941,7 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
              textOutput("feedback6"),
              br(),br(),
              h4("Actividad práctica"),
-             p("Redacta una hipótesis sobre capacitación judicial y aplicación de la Ley de Medio Ambiente."),
+             p("Redacta una hipótesis sobre cantidad de juzgados y acceso a la justicia."),
              actionButton("sol6", "Ver respuesta sugerida"),
              textOutput("resp6"),
              br(),
@@ -959,7 +957,18 @@ elaboración conceptual.", style = "border: 1px solid black; padding: 6px;")
              h4("Actividad grupal domiciliaria entregable: Participación comunitaria"),
              p("Elabore una hipótesis causal sobre la baja participación juvenil en organizaciones barriales y la falta de políticas públicas de incentivo."),
              br(),
-             ),
+             tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://hipocs.onrender.com/", 
+                        target = "_blank", 
+                        "5. Taller")
+               ),
+               
+               
+             )
+    ),
     
     # --------------------------
     # CAPÍTULO VI
@@ -2216,7 +2225,7 @@ server <- function(input, output, session) {
   observeEvent(input$sol3, { output$resp3 <- renderText("Respuesta sugerida: Reformulación: ¿Qué barreras enfrentan las mujeres de bajos ingresos para acceder a la justicia en materia de violencia doméstica?") })
   observeEvent(input$sol4, { output$resp4 <- renderText("Respuesta sugerida: Conceptos: sostenibilidad, responsabilidad estatal, derecho ambiental.") })
   observeEvent(input$sol5, { output$resp5 <- renderText("Respuesta sugerida: Obj. general: Analizar la aplicación de la Ley 19.580. Obj. específicos: 1) Examinar sentencias, 2) Entrevistar a operadores.") })
-  observeEvent(input$sol6, { output$resp6 <- renderText("Respuesta sugerida: Hipótesis: A mayor capacitación judicial, ........") })
+  observeEvent(input$sol6, { output$resp6 <- renderText("Respuesta sugerida: Hipótesis: A mayor cantidad de juzgados ........") })
   observeEvent(input$sol7, { output$resp7 <- renderText("Respuesta sugerida: Indicadores: % mujeres juezas, % mujeres en tribunales superiores, tiempos de ascenso por género.") })
   observeEvent(input$sol8, { output$resp8 <- renderText("Respuesta sugerida: Población: estudiantes universitarios. Muestra: estudiantes del CENUR LN seleccionados aleatoriamente.") })
   observeEvent(input$sol9, { output$resp9 <- renderText("Respuesta sugerida: Método mixto: estadísticas sobre ingresos + entrevistas jefe/a de hogar.") })
