@@ -1176,17 +1176,13 @@ organización de actividades, uso de redes sociales)."),
                  tags$a(href = "https://taller-var-ind.onrender.com/", 
                         target = "_blank", 
                         "6a. Taller")
-               ),br(),
+               ),
                
                tags$li(
                  tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
                         target = "_blank", 
                         "6b. Taller"))
                )
-    ),
-    
-             
-             
     ),
     
     # --------------------------
