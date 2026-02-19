@@ -1169,7 +1169,22 @@ organización de actividades, uso de redes sociales)."),
              h4("Actividad grupal domiciliaria entregable: Migración"),
              p("Propongan indicadores que permitan medir la integración de migrantes en el mercado laboral y en el acceso a servicios."),
              br(),
-             
+             tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-var-ind.onrender.com/", 
+                        target = "_blank", 
+                        "6a. Taller")
+               ),br(),
+               
+               tags$li(
+                 tags$a(href = "https://joseclasederecho.shinyapps.io/3Dplot/", 
+                        target = "_blank", 
+                        "6b. Taller"))
+               )
+    ),
+    
              
              
     ),
