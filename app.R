@@ -1307,9 +1307,17 @@ organización de actividades, uso de redes sociales)."),
              
              br(),
              tags$hr(),
-             br(),
-             
-    ),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-unidad-an.onrender.com/", 
+                        target = "_blank", 
+                        "7. Taller")
+               ),
+               
+               
+             )
+    ),      
     
     # --------------------------
     # CAPÍTULO VIII
