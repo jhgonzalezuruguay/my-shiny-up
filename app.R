@@ -1619,7 +1619,17 @@ investigación.")
              p("Analice cómo distintos métodos permiten estudiar la relación entre participación comunitaria y confianza en instituciones democráticas."),
              
              br(),
-  
+          tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-metodos.onrender.com/", 
+                        target = "_blank", 
+                        "8. Taller")
+               ),
+                            
+               
+             )
     ),
     
     # --------------------------
