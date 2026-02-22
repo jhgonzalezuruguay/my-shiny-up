@@ -1945,8 +1945,17 @@ acciones y comprender, mediante un proceso de identificación, sus motivaciones
              h4("Actividad grupal domiciliaria entregable: Participación ciudadana"),
              p("Compare ventajas y limitaciones del enfoque cuantitativo y cualitativo para estudiar participación en organizaciones barriales."),
              br(),
-             
-             
+             tags$hr(),
+             h4("Recursos complementarios:"),
+             tags$ul(
+               tags$li(
+                 tags$a(href = "https://taller-tecnicas.onrender.com/", 
+                        target = "_blank", 
+                        "9. Taller")
+               ),
+               
+               
+             )
     )
   )
 )
