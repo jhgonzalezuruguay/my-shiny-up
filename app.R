@@ -226,7 +226,7 @@ h1, h2, h3, h4 {
                             "3. Taller Indicadores - Herramienta interactiva")),
                    
                    tags$li(
-                     tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/ech2324/", 
                             target = "_blank", 
                             "4. Taller Investigaciones  - Herramienta interactiva"))
 
