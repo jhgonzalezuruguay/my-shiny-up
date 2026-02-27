@@ -212,10 +212,10 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://shiny-app-rsks.onrender.com/", 
                             target = "_blank", 
-                            "1. Taller Investigaciones - Herramienta interactiva")),           
+                            "1. Taller Investigaciones - Facet interactiva")),           
                    
                    tags$li(
-                     tags$a(href = "https://hipocs.onrender.com/", 
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/hipocs/", 
                             target = "_blank", 
                             "2. Hipotesis - Herramienta interactiva")),
                    
@@ -228,7 +228,11 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/ech2324/", 
                             target = "_blank", 
-                            "4. Taller Investigaciones  - Herramienta interactiva"))
+                            "4. Taller Investigaciones  - Herramienta interactiva")),
+                   tags$li(
+                     tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
+                            target = "_blank", 
+                            "5. Taller Investigaciones  - VBG interactiva"))
 
                    
                    )))
