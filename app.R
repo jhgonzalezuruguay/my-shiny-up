@@ -232,7 +232,11 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
                             target = "_blank", 
-                            "5. Taller Investigaciones  - VBG interactiva"))
+                            "5. Taller Investigaciones  - VBG interactiva")),
+                   tags$li(
+                     tags$a(href = "https://mov-xoc-1.onrender.com/", 
+                            target = "_blank", 
+                            "6. Taller Investigaciones  - Mov. Soc."))
 
                    
                    )))
