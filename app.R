@@ -236,7 +236,11 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://mov-xoc-1.onrender.com/", 
                             target = "_blank", 
-                            "6. Taller Investigaciones  - Mov. Soc."))
+                            "6. Taller Investigaciones  - Mov. Soc.")),
+                   tags$li(
+                     tags$a(href = "https://ineed-app-1.onrender.com/", 
+                            target = "_blank", 
+                            "7. Taller Investigaciones  - Multinivel"))
 
                    
                    )))
