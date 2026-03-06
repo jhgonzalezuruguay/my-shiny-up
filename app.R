@@ -169,7 +169,7 @@ h1, h2, h3, h4 {
                  # h3("📚 TALLER Y RECURSOS COMPLEMENTARIOS"),
                  # br(),
                  # br(),
-                 # h4("📉 1. Investigaciones - Herramienta interactiva"),
+                 # h4("📉 1. Investigaciones - HMD interactiva"),
                  # tags$iframe(
                  #   src = "https://joseclasederecho.shinyapps.io/ech2324/",
                  #   width = "100%",
@@ -228,7 +228,7 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/ech2324/", 
                             target = "_blank", 
-                            "4. Taller Investigaciones  - Herramienta interactiva")),
+                            "4. Taller Investigaciones  - HMD interactiva")),
                    tags$li(
                      tags$a(href = "https://joseclasederecho.shinyapps.io/appley19580/", 
                             target = "_blank", 
@@ -240,7 +240,11 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://ineed-app-1.onrender.com/", 
                             target = "_blank", 
-                            "7. Taller Investigaciones  - Multinivel"))
+                            "7. Taller Investigaciones  - Multinivel")),
+                   tags$li(
+                     tags$a(href = "https://arandanos.onrender.com/", 
+                            target = "_blank", 
+                            "8. Taller - Art. Arándanos"))
 
                    
                    )))
