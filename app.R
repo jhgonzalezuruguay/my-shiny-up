@@ -244,7 +244,11 @@ h1, h2, h3, h4 {
                    tags$li(
                      tags$a(href = "https://arandanos.onrender.com/", 
                             target = "_blank", 
-                            "8. Taller - Art. Arándanos"))
+                            "8. Taller - Art. Arándanos")),
+                   tags$li(
+                     tags$a(href = "https://madres-universitarias.onrender.com/", 
+                            target = "_blank", 
+                            "9. Taller - Madres Universitarias"))
 
                    
                    )))
